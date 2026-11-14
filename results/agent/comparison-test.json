@@ -1,0 +1,40 @@
+{
+  "price_per_1M": [
+    0.15,
+    0.6
+  ],
+  "runs": {
+    "test-dense-baseline": {
+      "complete": true,
+      "n_run": 7,
+      "errors": [],
+      "tool_use": "7/7",
+      "avg_searches": 1,
+      "context_evidence": "5/5",
+      "answered_gold_citation": "5/5",
+      "false_abstention": "0/5",
+      "false_abstention_ids": [],
+      "abstention_correct": "2/2",
+      "no_gold_citation_ids": [],
+      "avg_prompt_tokens": 1182,
+      "median_s": 3.1,
+      "est_cost_usd": 0.00164
+    },
+    "test-rerank-selected": {
+      "complete": true,
+      "n_run": 7,
+      "errors": [],
+      "tool_use": "7/7",
+      "avg_searches": 1,
+      "context_evidence": "5/5",
+      "answered_gold_citation": "5/5",
+      "false_abstention": "0/5",
+      "false_abstention_ids": [],
+      "abstention_correct": "2/2",
+      "no_gold_citation_ids": [],
+      "avg_prompt_tokens": 1702,
+      "median_s": 3.97,
+      "est_cost_usd": 0.0022
+    }
+  }
+}

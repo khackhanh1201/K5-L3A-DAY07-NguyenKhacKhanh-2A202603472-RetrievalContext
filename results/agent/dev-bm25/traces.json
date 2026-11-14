@@ -1,0 +1,1845 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What shape did Kepler find for the orbit of Mars?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Kepler found that the orbit of Mars has the shape of an ellipse, with the Sun located at one of its foci [astronomy2e-ch03:p101:par800:3][astronomy2e-ch03:p87:par800:3].",
+    "citations": [
+      "astronomy2e-ch03:p101:par800:3",
+      "astronomy2e-ch03:p87:par800:3"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "Kepler orbit shape Mars",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch03:p101:par800:3",
+            "label": "S1",
+            "rank": 1,
+            "score": 11.19641,
+            "page": 101,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p88:par800:3",
+            "label": "S2",
+            "rank": 2,
+            "score": 10.89637,
+            "page": 88,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p87:par800:3",
+            "label": "S3",
+            "rank": 3,
+            "score": 9.20633,
+            "page": 87,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch03:p101:par800:3",
+          "astronomy2e-ch03:p88:par800:3",
+          "astronomy2e-ch03:p87:par800:3"
+        ],
+        "retrieval_ms": 0.5,
+        "llm": {
+          "latency_ms": 1831,
+          "attempts": 1,
+          "prompt_tokens": 271,
+          "completion_tokens": 17,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "Kepler found that the orbit of Mars has the shape of an ellipse, with the Sun located at one of its foci [S1][S3].",
+        "raw_citations": [
+          "S1",
+          "S3"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [],
+        "llm": {
+          "latency_ms": 1596,
+          "attempts": 1,
+          "prompt_tokens": 843,
+          "completion_tokens": 54,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch03:p101:par800:3",
+      "astronomy2e-ch03:p88:par800:3",
+      "astronomy2e-ch03:p87:par800:3"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch03, page 101)\nAll the planets have orbits of rather low eccentricity. The most eccentric orbit is that of Mercury (0.21); the rest have eccentricities smaller than 0.1. It is fortunate that among the rest, Mars has an eccentricity greater than that of many of the other planets. Otherwise the pre-telescopic observations of Brahe would not have been sufficient for Kepler to deduce that its orbit had the shape of an ellipse rather than a circle.\n\n[S2] (source: astronomy2e-ch03, page 88)\nNext, we can make ellipses of various elongations (or extended lengths) by varying the spacing of the tacks (as long as they are not farther apart than the length of the string). The greater the eccentricity, the more elongated is the ellipse, up to a maximum eccentricity of , when the ellipse becomes “flat,” the other extreme from a circle.\n\nThe size and shape of an ellipse are completely specified by its semimajor axis and its eccentricity. Using Brahe’s data, Kepler found that Mars has an elliptical orbit, with the Sun at one focus (the other focus is empty). The eccentricity of the orbit of Mars is only about ; its orbit, drawn to scale, would be practically indistinguishable from a circle, but the difference turned out to be critical for understanding planetary motions.\n\n[S3] (source: astronomy2e-ch03, page 87)\nThe First Two Laws of Planetary Motion The path of an object through space is called its orbit. Kepler initially assumed that the orbits of planets were circles, but doing so did not allow him to find orbits that were consistent with Brahe’s observations. Working with the data for Mars, he eventually discovered that the orbit of that planet had the shape of a somewhat flattened circle, or ellipse. Next to the circle, the ellipse is the simplest kind of closed curve, belonging to a family of curves known as conic sections (Figure 3.3).\n\nFigure 3.3 Conic Sections. The circle, ellipse, parabola, and hyperbola are all formed by the intersection of a plane with a cone. This is why such curves are called conic sections.",
+    "label_map": {
+      "S1": "astronomy2e-ch03:p101:par800:3",
+      "S2": "astronomy2e-ch03:p88:par800:3",
+      "S3": "astronomy2e-ch03:p87:par800:3"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 3.43,
+    "prompt_tokens": 1114,
+    "completion_tokens": 71,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "How is the eccentricity of an ellipse defined?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The eccentricity of an ellipse is defined as the ratio of the distance between the two foci to the length of the major axis [astronomy2e-ch03:p88:par800:2].",
+    "citations": [
+      "astronomy2e-ch03:p88:par800:2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "eccentricity of an ellipse definition",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch03:p88:par800:2",
+            "label": "S1",
+            "rank": 1,
+            "score": 12.52144,
+            "page": 88,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p88:par800:3",
+            "label": "S2",
+            "rank": 2,
+            "score": 11.5177,
+            "page": 88,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p101:par800:3",
+            "label": "S3",
+            "rank": 3,
+            "score": 9.31301,
+            "page": 101,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch03:p88:par800:2",
+          "astronomy2e-ch03:p88:par800:3",
+          "astronomy2e-ch03:p101:par800:3"
+        ],
+        "retrieval_ms": 0.4,
+        "llm": {
+          "latency_ms": 1205,
+          "attempts": 1,
+          "prompt_tokens": 269,
+          "completion_tokens": 19,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "The eccentricity of an ellipse is defined as the ratio of the distance between the two foci to the length of the major axis [S1].",
+        "raw_citations": [
+          "S1"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [],
+        "llm": {
+          "latency_ms": 1297,
+          "attempts": 1,
+          "prompt_tokens": 807,
+          "completion_tokens": 49,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch03:p88:par800:2",
+      "astronomy2e-ch03:p88:par800:3",
+      "astronomy2e-ch03:p101:par800:3"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch03, page 88)\nThe shape (roundness) of an ellipse depends on how close together the two foci are, compared with the major axis. The ratio of the distance between the foci to the length of the major axis is called the eccentricity of the ellipse.\n\nIf the foci (or tacks) are moved to the same location, then the distance between the foci would be zero. This means that the eccentricity is zero and the ellipse is just a circle; thus, a circle can be called an ellipse of zero eccentricity. In a circle, the semimajor axis would be the radius.\n\n[S2] (source: astronomy2e-ch03, page 88)\nNext, we can make ellipses of various elongations (or extended lengths) by varying the spacing of the tacks (as long as they are not farther apart than the length of the string). The greater the eccentricity, the more elongated is the ellipse, up to a maximum eccentricity of , when the ellipse becomes “flat,” the other extreme from a circle.\n\nThe size and shape of an ellipse are completely specified by its semimajor axis and its eccentricity. Using Brahe’s data, Kepler found that Mars has an elliptical orbit, with the Sun at one focus (the other focus is empty). The eccentricity of the orbit of Mars is only about ; its orbit, drawn to scale, would be practically indistinguishable from a circle, but the difference turned out to be critical for understanding planetary motions.\n\n[S3] (source: astronomy2e-ch03, page 101)\nAll the planets have orbits of rather low eccentricity. The most eccentric orbit is that of Mercury (0.21); the rest have eccentricities smaller than 0.1. It is fortunate that among the rest, Mars has an eccentricity greater than that of many of the other planets. Otherwise the pre-telescopic observations of Brahe would not have been sufficient for Kepler to deduce that its orbit had the shape of an ellipse rather than a circle.",
+    "label_map": {
+      "S1": "astronomy2e-ch03:p88:par800:2",
+      "S2": "astronomy2e-ch03:p88:par800:3",
+      "S3": "astronomy2e-ch03:p101:par800:3"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 2.5,
+    "prompt_tokens": 1076,
+    "completion_tokens": 68,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Using its 1.88-year orbital period, how far from the Sun is Mars on average in astronomical units?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Mars is on average about 1.52 astronomical units (AU) from the Sun [astronomy2e-ch03:p90:par800:1].",
+    "citations": [
+      "astronomy2e-ch03:p90:par800:1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "Mars orbital period distance from the Sun astronomical units",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch03:p90:par800:1",
+            "label": "S1",
+            "rank": 1,
+            "score": 17.74215,
+            "page": 90,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p89:par800:3",
+            "label": "S2",
+            "rank": 2,
+            "score": 13.35253,
+            "page": 89,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p99:par800:1",
+            "label": "S3",
+            "rank": 3,
+            "score": 12.01091,
+            "page": 99,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch03:p90:par800:1",
+          "astronomy2e-ch03:p89:par800:3",
+          "astronomy2e-ch03:p99:par800:1"
+        ],
+        "retrieval_ms": 1.9,
+        "llm": {
+          "latency_ms": 1040,
+          "attempts": 1,
+          "prompt_tokens": 282,
+          "completion_tokens": 21,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "Mars is on average about 1.52 astronomical units (AU) from the Sun [S1].",
+        "raw_citations": [
+          "S1"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [],
+        "llm": {
+          "latency_ms": 1214,
+          "attempts": 1,
+          "prompt_tokens": 952,
+          "completion_tokens": 40,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch03:p90:par800:1",
+      "astronomy2e-ch03:p89:par800:3",
+      "astronomy2e-ch03:p99:par800:1"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch03, page 90)\nFor instance, suppose you time how long Mars takes to go around the Sun (in Earth years). Kepler’s third law can then be used to calculate Mars’ average distance from the Sun. Mars’ orbital period (1.88 Earth years) squared, or , is , and according to the equation for Kepler’s third law, this equals the cube of its semimajor axis, or . So what number must be cubed to give 3.53? The answer is . Thus, Mars’ semimajor axis in astronomical units must be 1.52 AU. In other words, to go around the Sun in a little less than two years, Mars must be about 50% (half again) as far from the Sun as Earth is.\n\nEXAMPLE 3. 1 Calculating Periods Imagine an object is traveling around the Sun. What would be the orbital period of the object if its orbit has a semimajor axis of 50 AU?\n\n[S2] (source: astronomy2e-ch03, page 89)\nIn 1619, Kepler discovered a basic relationship to relate the planets’ orbits to their relative distances from the Sun. We define a planet’s orbital period, (P), as the time it takes a planet to travel once around the Sun. Also, recall that a planet’s semimajor axis, a, is equal to its average distance from the Sun. The relationship, now known as Kepler’s third law, says that a planet’s orbital period squared is proportional to the semimajor axis of its orbit cubed, or When P (the orbital period) is measured in years, and a is expressed in a quantity known as an astronomical unit (AU), the two sides of the formula are not only proportional but equal. One AU is the average distance between Earth and the Sun and is approximately equal to kilometers.\n\n[S3] (source: astronomy2e-ch03, page 99)\nOrbital Motion and Mass Kepler’s laws describe the orbits of the objects whose motions are described by Newton’s laws of motion and the law of gravity. Knowing that gravity is the force that attracts planets toward the Sun, however, allowed Newton to rethink Kepler’s third law. Recall that Kepler had found a relationship between the orbital period of a planet’s revolution and its distance from the Sun. But Newton’s formulation introduces the additional factor of the masses of the Sun (M1) and the planet (M2), both expressed in units of the Sun’s mass. Newton’s universal law of gravitation can be used to show mathematically that this relationship is actually where a is the semimajor axis and P is the orbital period.",
+    "label_map": {
+      "S1": "astronomy2e-ch03:p90:par800:1",
+      "S2": "astronomy2e-ch03:p89:par800:3",
+      "S3": "astronomy2e-ch03:p99:par800:1"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 2.26,
+    "prompt_tokens": 1234,
+    "completion_tokens": 61,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "Why does a planet travel faster when it gets nearer to the Sun?",
+    "filter": null,
+    "status": "answered",
+    "answer": "A planet travels faster when it gets nearer to the Sun due to Kepler's Second Law, which states that a line between the Sun and a planet sweeps out equal areas in equal times. This means that as a planet approaches the Sun, it must move faster to cover the same area in the same amount of time [astronomy2e-ch03:p89:par800:1].",
+    "citations": [
+      "astronomy2e-ch03:p89:par800:1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "planet travel faster nearer to the Sun",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p143:par800:0",
+            "label": "S1",
+            "rank": 1,
+            "score": 6.79823,
+            "page": 143,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p89:par800:3",
+            "label": "S2",
+            "rank": 2,
+            "score": 6.43077,
+            "page": 89,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p130:par800:0",
+            "label": "S3",
+            "rank": 3,
+            "score": 5.56739,
+            "page": 130,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p143:par800:0",
+          "astronomy2e-ch03:p89:par800:3",
+          "astronomy2e-ch04:p130:par800:0"
+        ],
+        "retrieval_ms": 0.6,
+        "llm": {
+          "latency_ms": 1043,
+          "attempts": 1,
+          "prompt_tokens": 273,
+          "completion_tokens": 19,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "planet speed varies distance from the Sun",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch03:p89:par800:1",
+            "label": "S4",
+            "rank": 1,
+            "score": 9.10719,
+            "page": 89,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p129:par800:1",
+            "label": "S5",
+            "rank": 2,
+            "score": 8.28498,
+            "page": 129,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p121:par800:2",
+            "label": "S6",
+            "rank": 3,
+            "score": 7.17293,
+            "page": 121,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p143:par800:0",
+          "astronomy2e-ch03:p89:par800:1",
+          "astronomy2e-ch03:p89:par800:3",
+          "astronomy2e-ch04:p129:par800:1",
+          "astronomy2e-ch04:p130:par800:0",
+          "astronomy2e-ch04:p121:par800:2"
+        ],
+        "retrieval_ms": 0.9,
+        "llm": {
+          "latency_ms": 1047,
+          "attempts": 1,
+          "prompt_tokens": 757,
+          "completion_tokens": 19,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "A planet travels faster when it gets nearer to the Sun due to Kepler's Second Law, which states that a line between the Sun and a planet sweeps out equal areas in equal times. This means that as a planet approaches the Sun, it must move faster to cover the same area in the same amount of time [S4].",
+        "raw_citations": [
+          "S4"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [],
+        "llm": {
+          "latency_ms": 1932,
+          "attempts": 1,
+          "prompt_tokens": 1230,
+          "completion_tokens": 87,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch04:p143:par800:0",
+      "astronomy2e-ch03:p89:par800:1",
+      "astronomy2e-ch03:p89:par800:3",
+      "astronomy2e-ch04:p129:par800:1",
+      "astronomy2e-ch04:p130:par800:0",
+      "astronomy2e-ch04:p121:par800:2"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch04, page 143)\nHowever, if an eclipse of the Sun occurs when the Moon is somewhat nearer than its average distance, the Moon can completely hide the Sun, producing a total solar eclipse. Another way to say it is that a total eclipse of the Sun occurs at those times when the umbra of the Moon’s shadow reaches the surface of Earth.\n\n[S4] (source: astronomy2e-ch03, page 89)\nFigure 3.5 Kepler’s Second Law: The Law of Equal Areas. The orbital speed of a planet traveling around the Sun (the circular object inside the ellipse) varies in such a way that in equal intervals of time (t), a line between the Sun and a planet sweeps out equal areas (A and B). Note that the eccentricities of the planets’ orbits in our solar system are substantially less than shown here.\n\nThe Kepler's Second Law demonstrator (https://openstax.org/l/30kepsecond) from CCNY's ScienceSims project shows how an orbiting planet sweeps out the same area in the same time.\n\n[S2] (source: astronomy2e-ch03, page 89)\nIn 1619, Kepler discovered a basic relationship to relate the planets’ orbits to their relative distances from the Sun. We define a planet’s orbital period, (P), as the time it takes a planet to travel once around the Sun. Also, recall that a planet’s semimajor axis, a, is equal to its average distance from the Sun. The relationship, now known as Kepler’s third law, says that a planet’s orbital period squared is proportional to the semimajor axis of its orbit cubed, or When P (the orbital period) is measured in years, and a is expressed in a quantity known as an astronomical unit (AU), the two sides of the formula are not only proportional but equal. One AU is the average distance between Earth and the Sun and is approximately equal to kilometers.\n\n[S5] (source: astronomy2e-ch04, page 129)\nAlthough apparent solar time seems simple, it is not really very convenient to use. The exact length of an apparent solar day varies slightly during the year. The eastward progress of the Sun in its annual journey around the sky is not uniform because the speed of Earth varies slightly in its elliptical orbit. Another complication is that Earth’s axis of rotation is not perpendicular to the plane of its revolution. Thus, apparent solar time does not advance at a uniform rate. After the invention of mechanical clocks that run at a uniform rate, it became necessary to abandon the apparent solar day as the fundamental unit of time.\n\n[S3] (source: astronomy2e-ch04, page 130)\nThe International Date Line The fact that time is always advancing as you move toward the east presents a problem. Suppose you travel eastward around the world. You pass into a new time zone, on the average, about every 15° of longitude you travel, and each time you dutifully set your watch ahead an hour. By the time you have completed your trip, you have set your watch ahead a full 24 hours and thus gained a day over those who stayed at home.\n\n[S6] (source: astronomy2e-ch04, page 121)\nMany people have believed that the seasons were the result of the changing distance between Earth and the Sun. This sounds reasonable at first: it should be colder when Earth is farther from the Sun. But the facts don’t bear out this hypothesis. Although Earth’s orbit around the Sun is an ellipse, its distance from the Sun varies by only about 3%. That’s not enough to cause significant variations in the Sun’s heating. To make matters worse for people in North America who hold this hypothesis, Earth is actually closest to the Sun in January, when the Northern Hemisphere is in the middle of winter. And if distance were the governing factor, why would the two hemispheres have opposite seasons? As we shall show, the seasons are actually caused by the 23.5° tilt of Earth’s axis.",
+    "label_map": {
+      "S1": "astronomy2e-ch04:p143:par800:0",
+      "S2": "astronomy2e-ch03:p89:par800:3",
+      "S3": "astronomy2e-ch04:p130:par800:0",
+      "S4": "astronomy2e-ch03:p89:par800:1",
+      "S5": "astronomy2e-ch04:p129:par800:1",
+      "S6": "astronomy2e-ch04:p121:par800:2"
+    },
+    "n_searches": 2,
+    "n_llm_calls": 3,
+    "elapsed_s": 4.02,
+    "prompt_tokens": 2260,
+    "completion_tokens": 125,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Astronauts a few hundred kilometers above Earth still feel strong gravity, so why do they appear weightless?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Astronauts appear weightless because they are in free fall, accelerating at the same rate as their spacecraft and everything around them. This means they do not feel the gravitational force acting on them, similar to passengers in a falling elevator. Although they are only a few hundred kilometers above Earth, they are in orbit, continuously falling around the planet rather than directly towards it, which creates the sensation of weightlessness [astronomy2e-ch03:p98:par800:3][astronomy2e-ch03:p99:par800:0][astronomy2e-ch03:p98:par800:2].",
+    "citations": [
+      "astronomy2e-ch03:p98:par800:3",
+      "astronomy2e-ch03:p99:par800:0",
+      "astronomy2e-ch03:p98:par800:2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "astronauts weightless gravity",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch03:p98:par800:3",
+            "label": "S1",
+            "rank": 1,
+            "score": 15.60375,
+            "page": 98,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p99:par800:0",
+            "label": "S2",
+            "rank": 2,
+            "score": 10.99728,
+            "page": 99,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p98:par800:2",
+            "label": "S3",
+            "rank": 3,
+            "score": 9.13536,
+            "page": 98,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch03:p98:par800:3",
+          "astronomy2e-ch03:p99:par800:0",
+          "astronomy2e-ch03:p98:par800:2"
+        ],
+        "retrieval_ms": 0.6,
+        "llm": {
+          "latency_ms": 965,
+          "attempts": 1,
+          "prompt_tokens": 281,
+          "completion_tokens": 18,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "Astronauts appear weightless because they are in free fall, accelerating at the same rate as their spacecraft and everything around them. This means they do not feel the gravitational force acting on them, similar to passengers in a falling elevator. Although they are only a few hundred kilometers above Earth, they are in orbit, continuously falling around the planet rather than directly towards it, which creates the sensation of weightlessness [S1][S2][S3].",
+        "raw_citations": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [],
+        "llm": {
+          "latency_ms": 3294,
+          "attempts": 1,
+          "prompt_tokens": 802,
+          "completion_tokens": 116,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch03:p98:par800:3",
+      "astronomy2e-ch03:p99:par800:0",
+      "astronomy2e-ch03:p98:par800:2"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch03, page 98)\nThe astronauts feel “weightless” (meaning that they don’t feel the gravitational force acting on them) for the same reason that passengers in an elevator whose cable has broken feel weightless: they are falling (Figure 3.9).2 2 In the film Apollo 13, the scenes in which the astronauts were “weightless” were actually filmed in a falling airplane. As you might imagine, the plane fell for only short periods before the engines engaged again.\n\n80 3 • Orbits and Gravity Access for free at openstax.org\n\n[S2] (source: astronomy2e-ch03, page 99)\nFigure 3.9 Astronauts in Free Fall. While in space, astronauts are falling freely, so they experience “weightlessness.” Clockwise from top left: Tracy Caldwell Dyson (NASA), Naoko Yamazaki (JAXA), Dorothy Metcalf-Lindenburger (NASA), and Stephanie Wilson (NASA).\n\n(credit: NASA) When falling, they are in free fall and accelerate at the same rate as everything around them, including their spacecraft or a camera with which they are taking photographs of Earth. When doing so, astronauts experience no additional forces and therefore feel “weightless.” Unlike the falling elevator passengers, however, the astronauts are falling around Earth, not to Earth; as a result they will continue to fall and are said to be “in orbit” around Earth (see the next section for more about orbits).\n\n[S3] (source: astronomy2e-ch03, page 98)\nWhy is it then, you may ask, that the astronauts aboard the Space Shuttle appear to have no gravitational forces acting on them when we see images on television of the astronauts and objects floating in the spacecraft? After all, the astronauts in the shuttle are only a few hundred kilometers above the surface of Earth, which is not a significant distance compared to the size of Earth, so gravity is certainly not a great deal weaker that much farther away.",
+    "label_map": {
+      "S1": "astronomy2e-ch03:p98:par800:3",
+      "S2": "astronomy2e-ch03:p99:par800:0",
+      "S3": "astronomy2e-ch03:p98:par800:2"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 4.26,
+    "prompt_tokens": 1083,
+    "completion_tokens": 134,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Why did Kepler not realize that the masses of the Sun and planet belong in his third law?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "Kepler third law masses of the Sun and planet",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch03:p99:par800:1",
+            "label": "S1",
+            "rank": 1,
+            "score": 13.55283,
+            "page": 99,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p100:par800:0",
+            "label": "S2",
+            "rank": 2,
+            "score": 12.07416,
+            "page": 100,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p90:par800:0",
+            "label": "S3",
+            "rank": 3,
+            "score": 10.94896,
+            "page": 90,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch03:p99:par800:1",
+          "astronomy2e-ch03:p100:par800:0",
+          "astronomy2e-ch03:p90:par800:0"
+        ],
+        "retrieval_ms": 1.5,
+        "llm": {
+          "latency_ms": 1123,
+          "attempts": 1,
+          "prompt_tokens": 279,
+          "completion_tokens": 22,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain",
+        "reason": "The context does not provide information on why Kepler did not realize that the masses of the Sun and planet belong in his third law.",
+        "llm": {
+          "latency_ms": 1402,
+          "attempts": 1,
+          "prompt_tokens": 728,
+          "completion_tokens": 41,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch03:p99:par800:1",
+      "astronomy2e-ch03:p100:par800:0",
+      "astronomy2e-ch03:p90:par800:0"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch03, page 99)\nOrbital Motion and Mass Kepler’s laws describe the orbits of the objects whose motions are described by Newton’s laws of motion and the law of gravity. Knowing that gravity is the force that attracts planets toward the Sun, however, allowed Newton to rethink Kepler’s third law. Recall that Kepler had found a relationship between the orbital period of a planet’s revolution and its distance from the Sun. But Newton’s formulation introduces the additional factor of the masses of the Sun (M1) and the planet (M2), both expressed in units of the Sun’s mass. Newton’s universal law of gravitation can be used to show mathematically that this relationship is actually where a is the semimajor axis and P is the orbital period.\n\n[S2] (source: astronomy2e-ch03, page 100)\nthe planets, or the mass of Jupiter by noting the motions of its moons.\n\nIndeed, Newton’s reformulation of Kepler’s third law is one of the most powerful concepts in astronomy. Our ability to deduce the masses of objects from their motions is key to understanding the nature and evolution of many astronomical bodies. We will use this law repeatedly throughout this text in calculations that range from the orbits of comets to the interactions of galaxies.\n\n[S3] (source: astronomy2e-ch03, page 90)\nKepler’s third law applies to all objects orbiting the Sun, including Earth, and provides a means for calculating their relative distances from the Sun from the time they take to orbit. Let’s look at a specific example to illustrate how useful Kepler’s third law is.",
+    "label_map": {
+      "S1": "astronomy2e-ch03:p99:par800:1",
+      "S2": "astronomy2e-ch03:p100:par800:0",
+      "S3": "astronomy2e-ch03:p90:par800:0"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 2.53,
+    "prompt_tokens": 1007,
+    "completion_tokens": 63,
+    "cost_usd": 0.0,
+    "abstain_reason": "The context does not provide information on why Kepler did not realize that the masses of the Sun and planet belong in his third law."
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "How fast does a probe have to go to leave Earth permanently?",
+    "filter": null,
+    "status": "answered",
+    "answer": "To leave Earth permanently, a probe must achieve an escape speed of about 11 kilometers per second, which is approximately 25,000 miles per hour [astronomy2e-ch03:p105:par800:0].",
+    "citations": [
+      "astronomy2e-ch03:p105:par800:0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "escape velocity Earth",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch03:p104:par800:1",
+            "label": "S1",
+            "rank": 1,
+            "score": 11.35587,
+            "page": 104,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p104:par800:0",
+            "label": "S2",
+            "rank": 2,
+            "score": 8.33212,
+            "page": 104,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p105:par800:0",
+            "label": "S3",
+            "rank": 3,
+            "score": 7.46203,
+            "page": 105,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch03:p104:par800:1",
+          "astronomy2e-ch03:p104:par800:0",
+          "astronomy2e-ch03:p105:par800:0"
+        ],
+        "retrieval_ms": 0.9,
+        "llm": {
+          "latency_ms": 1222,
+          "attempts": 1,
+          "prompt_tokens": 272,
+          "completion_tokens": 15,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "To leave Earth permanently, a probe must achieve an escape speed of about 11 kilometers per second, which is approximately 25,000 miles per hour [S3].",
+        "raw_citations": [
+          "S3"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [],
+        "llm": {
+          "latency_ms": 1554,
+          "attempts": 1,
+          "prompt_tokens": 873,
+          "completion_tokens": 53,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch03:p104:par800:1",
+      "astronomy2e-ch03:p104:par800:0",
+      "astronomy2e-ch03:p105:par800:0"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch03, page 104)\nIf our bullet is given a high enough muzzle velocity, vc, the curved surface of Earth causes the ground to remain the same distance from the bullet so that the bullet falls around Earth in a complete circle. The speed needed to do this—called the circular satellite velocity—is about 8 kilometers per second, or about 17,500 miles per hour in more familiar units.\n\nUse the Newton’s Mountain simulator (https://openstax.org/l/30newmtnsim) to see for yourself the effects of increasing an object’s speed. You can raise the speed until you find the speed that is just fast enough for an object to orbit the Earth, the circular satellite velocity, and also the speed at which an object leaves the Earth forever, or the escape speed.\n\n[S2] (source: astronomy2e-ch03, page 104)\nFigure 3.11 Firing a Bullet into Orbit. (a) For paths a and b, the velocity is not enough to prevent gravity from pulling the bullet back to Earth; in case c, the velocity allows the bullet to fall completely around Earth. (b) This diagram by Newton in his De Mundi Systemate, 1731 edition, illustrates the same concept shown in (a).\n\nIf the bullet is fired with a velocity we can call va, the gravitational force acting upon it pulls it downward toward Earth, where it strikes the ground at point a. However, if it is given a higher muzzle velocity, vb, its higher speed carries it farther before it hits the ground at point b.\n\n[S3] (source: astronomy2e-ch03, page 105)\nFigure 3.12 Satellites in Earth Orbit. This figure shows the larger pieces of orbital debris that are being tracked by NASA in Earth’s orbit. (credit: NASA/JSC) Interplanetary Spacecraft The exploration of the solar system has been carried out largely by robot spacecraft sent to the other planets.\n\nTo escape Earth, these craft must achieve escape speed, the speed needed to move away from Earth forever, which is about 11 kilometers per second (about 25,000 miles per hour). After escaping Earth, these craft coast to their targets, subject only to minor trajectory adjustments provided by small thruster rockets on board. In interplanetary flight, these spacecraft follow orbits around the Sun that are modified only when they pass near one of the planets.",
+    "label_map": {
+      "S1": "astronomy2e-ch03:p104:par800:1",
+      "S2": "astronomy2e-ch03:p104:par800:0",
+      "S3": "astronomy2e-ch03:p105:par800:0"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 2.78,
+    "prompt_tokens": 1145,
+    "completion_tokens": 68,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Who first identified Neptune in the sky, and when?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Neptune was first identified in the sky by Johann Galle on September 23, 1846, after being suggested to look for it by Urbain Le Verrier. Galle found the planet that very night, less than a degree from the predicted position. [astronomy2e-ch03:p107:par800:4]",
+    "citations": [
+      "astronomy2e-ch03:p107:par800:4"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "who first identified Neptune and when",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch03:p107:par800:4",
+            "label": "S1",
+            "rank": 1,
+            "score": 7.35137,
+            "page": 107,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p106:par800:5",
+            "label": "S2",
+            "rank": 2,
+            "score": 4.74022,
+            "page": 106,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p101:par800:2",
+            "label": "S3",
+            "rank": 3,
+            "score": 4.7327,
+            "page": 101,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch03:p107:par800:4",
+          "astronomy2e-ch03:p106:par800:5",
+          "astronomy2e-ch03:p101:par800:2"
+        ],
+        "retrieval_ms": 0.6,
+        "llm": {
+          "latency_ms": 1360,
+          "attempts": 1,
+          "prompt_tokens": 270,
+          "completion_tokens": 18,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "Neptune was first identified in the sky by Johann Galle on September 23, 1846, after being suggested to look for it by Urbain Le Verrier. Galle found the planet that very night, less than a degree from the predicted position.",
+        "raw_citations": [
+          "S1"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [
+          "S1"
+        ],
+        "llm": {
+          "latency_ms": 1671,
+          "attempts": 1,
+          "prompt_tokens": 743,
+          "completion_tokens": 71,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch03:p107:par800:4",
+      "astronomy2e-ch03:p106:par800:5",
+      "astronomy2e-ch03:p101:par800:2"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch03, page 107)\nUnfortunately, he was negligent in examining his observations; although he had actually seen the planet, he did not recognize it.\n\nAbout a month later, Le Verrier suggested to Johann Galle, an astronomer at the Berlin Observatory, that he look for the planet. Galle received Le Verrier’s letter on September 23, 1846, and, possessing new charts of the Aquarius region, found and identified the planet that very night. It was less than a degree from the position Le Verrier predicted. The discovery of the eighth planet, now known as Neptune (the Latin name for the god of the sea), was a major triumph for gravitational theory for it dramatically confirmed the generality of Newton’s laws. The honor for the discovery is properly shared by the two mathematicians, Adams and Le Verrier (Figure 3.14).\n\n[S2] (source: astronomy2e-ch03, page 106)\nExplain how the gravitational interactions of many bodies can causes perturbations in their motions Explain how the planet Neptune was discovered 88 3 • Orbits and Gravity Access for free at openstax.org\n\n[S3] (source: astronomy2e-ch03, page 101)\nWe know eight planets, beginning with Mercury closest to the Sun and extending outward to Neptune. The average orbital data for the planets are summarized in Table 3.2. (Ceres is the largest of the asteroids, now considered a dwarf planet.) According to Kepler’s laws, Mercury must have the shortest orbital period (88 Earth-days); thus, it has the highest orbital speed, averaging 48 kilometers per second. At the opposite extreme, Neptune has a period of 165 years and an average orbital speed of just 5 kilometers per second.",
+    "label_map": {
+      "S1": "astronomy2e-ch03:p107:par800:4",
+      "S2": "astronomy2e-ch03:p106:par800:5",
+      "S3": "astronomy2e-ch03:p101:par800:2"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 3.03,
+    "prompt_tokens": 1013,
+    "completion_tokens": 89,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "What speed must an object reach to circle Earth in orbit instead of falling to the ground?",
+    "filter": null,
+    "status": "answered",
+    "answer": "An object must reach a speed of about 8 kilometers per second, or about 17,500 miles per hour, to circle Earth in orbit instead of falling to the ground. This speed is known as the circular satellite velocity [astronomy2e-ch03:p104:par800:1].",
+    "citations": [
+      "astronomy2e-ch03:p104:par800:1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "speed to circle Earth in orbit",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch03:p104:par800:1",
+            "label": "S1",
+            "rank": 1,
+            "score": 10.05962,
+            "page": 104,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p104:par800:2",
+            "label": "S2",
+            "rank": 2,
+            "score": 7.86109,
+            "page": 104,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p103:par800:2",
+            "label": "S3",
+            "rank": 3,
+            "score": 7.11998,
+            "page": 103,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch03:p104:par800:1",
+          "astronomy2e-ch03:p104:par800:2",
+          "astronomy2e-ch03:p103:par800:2"
+        ],
+        "retrieval_ms": 0.9,
+        "llm": {
+          "latency_ms": 976,
+          "attempts": 1,
+          "prompt_tokens": 277,
+          "completion_tokens": 18,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "An object must reach a speed of about 8 kilometers per second, or about 17,500 miles per hour, to circle Earth in orbit instead of falling to the ground. This speed is known as the circular satellite velocity [S1].",
+        "raw_citations": [
+          "S1"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [],
+        "llm": {
+          "latency_ms": 1544,
+          "attempts": 1,
+          "prompt_tokens": 786,
+          "completion_tokens": 68,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch03:p104:par800:1",
+      "astronomy2e-ch03:p104:par800:2",
+      "astronomy2e-ch03:p103:par800:2"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch03, page 104)\nIf our bullet is given a high enough muzzle velocity, vc, the curved surface of Earth causes the ground to remain the same distance from the bullet so that the bullet falls around Earth in a complete circle. The speed needed to do this—called the circular satellite velocity—is about 8 kilometers per second, or about 17,500 miles per hour in more familiar units.\n\nUse the Newton’s Mountain simulator (https://openstax.org/l/30newmtnsim) to see for yourself the effects of increasing an object’s speed. You can raise the speed until you find the speed that is just fast enough for an object to orbit the Earth, the circular satellite velocity, and also the speed at which an object leaves the Earth forever, or the escape speed.\n\n[S2] (source: astronomy2e-ch03, page 104)\nEach year, more than 50 new satellites are launched into orbit by such nations as Russia, the United States, China, Japan, India, and Israel, as well as by the European Space Agency (ESA), a consortium of European nations (Figure 3.12). Today, these satellites are used for weather tracking, ecology, global positioning systems, communications, and military purposes, to name a few uses. Most satellites are launched into low Earth orbit, since this requires the minimum launch energy. At the orbital speed of 8 kilometers per second, they circle the planet in about 90 minutes.\n\n[S3] (source: astronomy2e-ch03, page 103)\nOnce an artificial satellite is in orbit, its behavior is no different from that of a natural satellite, such as our Moon. If the satellite is high enough to be free of atmospheric friction, it will remain in orbit forever. However, although there is no difficulty in maintaining a satellite once it is in orbit, a great deal of energy is required to lift the spacecraft off Earth and accelerate it to orbital speed.",
+    "label_map": {
+      "S1": "astronomy2e-ch03:p104:par800:1",
+      "S2": "astronomy2e-ch03:p104:par800:2",
+      "S3": "astronomy2e-ch03:p103:par800:2"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 2.52,
+    "prompt_tokens": 1063,
+    "completion_tokens": 86,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "If the summer solstice is the longest day, why is it not the hottest day of the year?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The summer solstice is the longest day of the year, occurring around June 21, but it is not the hottest day because the Earth's atmosphere and surface, including air and water, do not heat up instantaneously. The hottest months in the Northern Hemisphere are typically July and August, as the accumulated heat from the longer days takes time to warm these large reservoirs effectively [astronomy2e-ch04:p127:par800:1].",
+    "citations": [
+      "astronomy2e-ch04:p127:par800:1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "summer solstice longest day hottest day of the year",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p127:par800:1",
+            "label": "S1",
+            "rank": 1,
+            "score": 18.20135,
+            "page": 127,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p124:par800:1",
+            "label": "S2",
+            "rank": 2,
+            "score": 13.77842,
+            "page": 124,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p123:par800:4",
+            "label": "S3",
+            "rank": 3,
+            "score": 12.68587,
+            "page": 123,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p127:par800:1",
+          "astronomy2e-ch04:p124:par800:1",
+          "astronomy2e-ch04:p123:par800:4"
+        ],
+        "retrieval_ms": 1.1,
+        "llm": {
+          "latency_ms": 1193,
+          "attempts": 1,
+          "prompt_tokens": 280,
+          "completion_tokens": 22,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "The summer solstice is the longest day of the year, occurring around June 21, but it is not the hottest day because the Earth's atmosphere and surface, including air and water, do not heat up instantaneously. The hottest months in the Northern Hemisphere are typically July and August, as the accumulated heat from the longer days takes time to warm these large reservoirs effectively [S1].",
+        "raw_citations": [
+          "S1"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [],
+        "llm": {
+          "latency_ms": 1906,
+          "attempts": 1,
+          "prompt_tokens": 932,
+          "completion_tokens": 96,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch04:p127:par800:1",
+      "astronomy2e-ch04:p124:par800:1",
+      "astronomy2e-ch04:p123:par800:4"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch04, page 127)\nThese atmospheric effects require small corrections in many of our statements about the seasons. At the equinoxes, for example, the Sun appears to be above the horizon for a few minutes longer than 12 hours, and below the horizon for fewer than 12 hours. These effects are most dramatic at Earth’s poles, where the Sun actually can be seen more than a week before it reaches the celestial equator.\n\nYou probably know that the summer solstice (June 21) is not the warmest day of the year, even if it is the longest. The hottest months in the Northern Hemisphere are July and August. This is because our weather involves the air and water covering Earth’s surface, and these large reservoirs do not heat up instantaneously.\n\n[S2] (source: astronomy2e-ch04, page 124)\nMany early cultures scheduled special events around the summer solstice to celebrate the longest days and thank their gods for making the weather warm. This required people to keep track of the lengths of the days and the northward trek of the Sun in order to know the right day for the “party.” (You can do the same thing by watching for several weeks, from the same observation point, where the Sun rises or sets relative to a fixed landmark. In spring, the Sun will rise farther and farther north of east, and set farther and farther north of west, reaching the maximum around the summer solstice.) Now look at the South Pole in Figure 4.8. On June 21, all places within 23° of the South Pole—that is, south of what we call the Antarctic Circle—do not see the Sun at all for 24 hours.\n\n[S3] (source: astronomy2e-ch04, page 123)\nLet’s look at what the Sun’s illumination on Earth looks like at some specific dates of the year, when these effects are at their maximum. On or about June 21 (the date we who live in the Northern Hemisphere call the summer solstice or sometimes the first day of summer), the Sun shines down most directly upon the Northern Hemisphere of Earth. It appears about 23° north of the equator, and thus, on that date, it passes through the zenith of places on Earth that are at 23° N latitude. The situation is shown in detail in Figure 4.8. To a person at 23° N (near Hawaii, for example), the Sun is directly overhead at noon. This latitude, where the Sun can appear at the zenith at noon on the first day of summer, is called the Tropic of Cancer.",
+    "label_map": {
+      "S1": "astronomy2e-ch04:p127:par800:1",
+      "S2": "astronomy2e-ch04:p124:par800:1",
+      "S3": "astronomy2e-ch04:p123:par800:4"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 3.1,
+    "prompt_tokens": 1212,
+    "completion_tokens": 118,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "How much longer is a solar day than a sidereal day?",
+    "filter": null,
+    "status": "answered",
+    "answer": "A solar day is about 4 minutes longer than a sidereal day [astronomy2e-ch04:p127:par800:5].",
+    "citations": [
+      "astronomy2e-ch04:p127:par800:5"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "solar day sidereal day difference",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p127:par800:5",
+            "label": "S1",
+            "rank": 1,
+            "score": 19.70618,
+            "page": 127,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p128:par800:0",
+            "label": "S2",
+            "rank": 2,
+            "score": 16.99533,
+            "page": 128,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p127:par800:3",
+            "label": "S3",
+            "rank": 3,
+            "score": 11.49303,
+            "page": 127,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p127:par800:5",
+          "astronomy2e-ch04:p128:par800:0",
+          "astronomy2e-ch04:p127:par800:3"
+        ],
+        "retrieval_ms": 0.5,
+        "llm": {
+          "latency_ms": 977,
+          "attempts": 1,
+          "prompt_tokens": 272,
+          "completion_tokens": 18,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "A solar day is about 4 minutes longer than a sidereal day [S1].",
+        "raw_citations": [
+          "S1"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [],
+        "llm": {
+          "latency_ms": 1611,
+          "attempts": 1,
+          "prompt_tokens": 731,
+          "completion_tokens": 37,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch04:p127:par800:5",
+      "astronomy2e-ch04:p128:par800:0",
+      "astronomy2e-ch04:p127:par800:3"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch04, page 127)\nThe time required for this extra rotation is 1/365 of a day, or about 4 minutes. So the solar day is about 4 minutes longer than the sidereal day.\n\nExplain the difference between the solar day and the sidereal day Explain mean solar time and the reason for time zones 4.3 • Keeping Time 109\n\n[S2] (source: astronomy2e-ch04, page 128)\nFigure 4.10 Difference Between a Sidereal Day and a Solar Day. This is a top view, looking down as Earth orbits the Sun. Because Earth moves around the Sun (roughly 1° per day), after one complete rotation of Earth relative to the stars, we do not see the Sun in the same position.\n\nBecause our ordinary clocks are set to solar time, stars rise 4 minutes earlier each day. Astronomers prefer sidereal time for planning their observations because in that system, a star rises at the same time every day.\n\n[S3] (source: astronomy2e-ch04, page 127)\nThe Length of the Day The most fundamental astronomical unit of time is the day, measured in terms of the rotation of Earth. There is, however, more than one way to define the day. Usually, we think of it as the rotation period of Earth with respect to the Sun, called the solar day. After all, for most people sunrise is more important than the rising time of Arcturus or some other star, so we set our clocks to some version of Sun-time. However, astronomers also use a sidereal day, which is defined in terms of the rotation period of Earth with respect to the stars.",
+    "label_map": {
+      "S1": "astronomy2e-ch04:p127:par800:5",
+      "S2": "astronomy2e-ch04:p128:par800:0",
+      "S3": "astronomy2e-ch04:p127:par800:3"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 2.59,
+    "prompt_tokens": 1003,
+    "completion_tokens": 55,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "In the Gregorian calendar, which century years count as leap years?",
+    "filter": null,
+    "status": "answered",
+    "answer": "In the Gregorian calendar, only century years that are divisible by 400 count as leap years. Therefore, the years 1600 and 2000 are leap years, while the years 1700, 1800, and 1900 are not leap years. [astronomy2e-ch04:p132:par800:4]",
+    "citations": [
+      "astronomy2e-ch04:p132:par800:4"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "Gregorian calendar leap years century years",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p132:par800:4",
+            "label": "S1",
+            "rank": 1,
+            "score": 32.87083,
+            "page": 132,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p132:par800:1",
+            "label": "S2",
+            "rank": 2,
+            "score": 16.3306,
+            "page": 132,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p132:par800:5",
+            "label": "S3",
+            "rank": 3,
+            "score": 13.16231,
+            "page": 132,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p132:par800:4",
+          "astronomy2e-ch04:p132:par800:1",
+          "astronomy2e-ch04:p132:par800:5"
+        ],
+        "retrieval_ms": 1.3,
+        "llm": {
+          "latency_ms": 1157,
+          "attempts": 1,
+          "prompt_tokens": 272,
+          "completion_tokens": 18,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "In the Gregorian calendar, only century years that are divisible by 400 count as leap years. Therefore, the years 1600 and 2000 are leap years, while the years 1700, 1800, and 1900 are not leap years.",
+        "raw_citations": [
+          "S1"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [
+          "S1"
+        ],
+        "llm": {
+          "latency_ms": 1663,
+          "attempts": 1,
+          "prompt_tokens": 818,
+          "completion_tokens": 72,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch04:p132:par800:4",
+      "astronomy2e-ch04:p132:par800:1",
+      "astronomy2e-ch04:p132:par800:5"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch04, page 132)\nThe Gregorian calendar reform consisted of two steps. First, 10 days had to be dropped out of the calendar to bring the vernal equinox back to March 21; by proclamation, the day following October 4, 1582, became October 15. The second feature of the new Gregorian calendar was a change in the rule for leap year, making the average length of the year more closely approximate the tropical year. Gregory decreed that three of every four century years—all leap years under the Julian calendar—would be common years henceforth. The rule was that only century years divisible by 400 would be leap years. Thus, 1700, 1800, and 1900—all divisible by 4 but not by 400—were not leap years in the Gregorian calendar. On the other hand, the years 1600 and 2000, both divisible by 400, were leap years.\n\n[S2] (source: astronomy2e-ch04, page 132)\nOur Western calendar derives from a long history of timekeeping beginning with the Sumerians, dating back to at least the second millennium BCE, and continuing with the Egyptians and the Greeks around the eighth century BCE. These calendars led, eventually, to the Julian calendar, introduced by Julius Caesar, which approximated the year at 365.25 days, fairly close to the actual value of 365.2422. The Romans achieved this approximation by declaring years to have 365 days each, with the exception of every fourth year. The leap year was to have one extra day, bringing its length to 366 days, and thus making the average length of the year in the Julian calendar 365.25 days.\n\n[S3] (source: astronomy2e-ch04, page 132)\nThe average length of this Gregorian year, 365.2425 mean solar days, is correct to about 1 day in 3300 years.\n\nThe Catholic countries immediately put the Gregorian reform into effect, but countries of the Eastern Church 114 4 • Earth, Moon, and Sky Access for free at openstax.org",
+    "label_map": {
+      "S1": "astronomy2e-ch04:p132:par800:4",
+      "S2": "astronomy2e-ch04:p132:par800:1",
+      "S3": "astronomy2e-ch04:p132:par800:5"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 2.82,
+    "prompt_tokens": 1090,
+    "completion_tokens": 90,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "Why can people on Earth only ever see one face of the Moon?",
+    "filter": null,
+    "status": "answered",
+    "answer": "People on Earth can only see one face of the Moon because the Moon rotates on its axis in exactly the same time that it takes to revolve around Earth. This phenomenon is known as synchronous rotation, which means that the same side of the Moon always faces Earth as it orbits [astronomy2e-ch04:p136:par800:2].",
+    "citations": [
+      "astronomy2e-ch04:p136:par800:2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "one face of the Moon",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p136:par800:2",
+            "label": "S1",
+            "rank": 1,
+            "score": 7.95177,
+            "page": 136,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p133:par800:3",
+            "label": "S2",
+            "rank": 2,
+            "score": 5.42709,
+            "page": 133,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p140:par800:2",
+            "label": "S3",
+            "rank": 3,
+            "score": 4.64175,
+            "page": 140,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p136:par800:2",
+          "astronomy2e-ch04:p133:par800:3",
+          "astronomy2e-ch04:p140:par800:2"
+        ],
+        "retrieval_ms": 0.4,
+        "llm": {
+          "latency_ms": 986,
+          "attempts": 1,
+          "prompt_tokens": 273,
+          "completion_tokens": 17,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "People on Earth can only see one face of the Moon because the Moon rotates on its axis in exactly the same time that it takes to revolve around Earth. This phenomenon is known as synchronous rotation, which means that the same side of the Moon always faces Earth as it orbits [S1].",
+        "raw_citations": [
+          "S1"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [],
+        "llm": {
+          "latency_ms": 1936,
+          "attempts": 1,
+          "prompt_tokens": 775,
+          "completion_tokens": 78,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch04:p136:par800:2",
+      "astronomy2e-ch04:p133:par800:3",
+      "astronomy2e-ch04:p140:par800:2"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch04, page 136)\nThe delay in moonrise from one day to the next caused by this eastward motion averages about 50 minutes.\n\nThe Moon rotates on its axis in exactly the same time that it takes to revolve about Earth. As a consequence, the Moon always keeps the same face turned toward Earth (Figure 4.15). You can simulate this yourself by “orbiting” your roommate or another volunteer. Start by facing your roommate. If you make one rotation (spin) with your shoulders in the exact same time that you revolve around him or her, you will continue to face your roommate during the whole “orbit.” As we will see in coming chapters, our Moon is not the only world that exhibits this behavior, which scientists call synchronous rotation.\n\nLINK TO LEARNING 118 4 • Earth, Moon, and Sky Access for free at openstax.org\n\n[S2] (source: astronomy2e-ch04, page 133)\nLunar Phases Although we know that the Sun moves 1/12 of its path around the sky each month, for purposes of explaining the phases, we can assume that the Sun’s light comes from roughly the same direction during the course of a four-week lunar cycle. The Moon, on the other hand, moves completely around Earth in that time. As we watch the Moon from our vantage point on Earth, how much of its face we see illuminated by sunlight depends on the angle the Sun makes with the Moon.\n\n[S3] (source: astronomy2e-ch04, page 140)\nGeorge Darwin and the Slowing of Earth The rubbing of water over the face of Earth involves an enormous amount of energy. Over long periods of time, the friction of the tides is slowing down the rotation of Earth. Our day gets longer by about 0.002 second each century. That seems very small, but such tiny changes can add up over millions and billions of years.",
+    "label_map": {
+      "S1": "astronomy2e-ch04:p136:par800:2",
+      "S2": "astronomy2e-ch04:p133:par800:3",
+      "S3": "astronomy2e-ch04:p140:par800:2"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 2.92,
+    "prompt_tokens": 1048,
+    "completion_tokens": 95,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "In the chapter on Earth, Moon, and Sky: as tidal friction slows Earth's spin, why must some other motion speed up?",
+    "filter": {
+      "chapter": "4"
+    },
+    "status": "answered",
+    "answer": "As tidal friction slows Earth's spin, some other motion must speed up to conserve angular momentum in the Earth-Moon system, as angular momentum cannot change within a closed system [astronomy2e-ch04:p140:par800:3].",
+    "citations": [
+      "astronomy2e-ch04:p140:par800:3"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "tidal friction slows Earth's spin other motion speed up",
+        "filter": {
+          "chapter": "4"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p140:par800:3",
+            "label": "S1",
+            "rank": 1,
+            "score": 13.87727,
+            "page": 140,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p139:par800:0",
+            "label": "S2",
+            "rank": 2,
+            "score": 12.68356,
+            "page": 139,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p140:par800:0",
+            "label": "S3",
+            "rank": 3,
+            "score": 9.55753,
+            "page": 140,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p140:par800:3",
+          "astronomy2e-ch04:p139:par800:0",
+          "astronomy2e-ch04:p140:par800:0"
+        ],
+        "retrieval_ms": 0.7,
+        "llm": {
+          "latency_ms": 1067,
+          "attempts": 1,
+          "prompt_tokens": 285,
+          "completion_tokens": 22,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "As tidal friction slows Earth's spin, some other motion must speed up to conserve angular momentum in the Earth-Moon system, as angular momentum cannot change within a closed system [S1].",
+        "raw_citations": [
+          "S1"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [],
+        "llm": {
+          "latency_ms": 1565,
+          "attempts": 1,
+          "prompt_tokens": 954,
+          "completion_tokens": 56,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch04:p140:par800:3",
+      "astronomy2e-ch04:p139:par800:0",
+      "astronomy2e-ch04:p140:par800:0"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch04, page 140)\nAlthough Earth’s spin is slowing down, the angular momentum (see Orbits and Gravity) in a system such as the Earth-Moon system cannot change. Thus, some other spin motion must speed up to take the extra angular momentum. The details of what happens were worked out over a century ago by George Darwin, the son of naturalist Charles Darwin. George Darwin (see Figure 4.20) had a strong interest in science but studied law for six years and was admitted to the bar. However, he never practiced law, returning to science instead and eventually becoming a professor at Cambridge University. He was a protégé of Lord Kelvin, one of the great physicists of the nineteenth century, and he became interested in the long-term evolution of the solar system.\n\n[S2] (source: astronomy2e-ch04, page 139)\nroughly at the point below the Moon. On the side of Earth opposite the Moon, water also flows to produce a tidal bulge (Figure 4.17).\n\nFigure 4.17 Tidal Bulges in an “Ideal” Ocean. Differences in gravity cause tidal forces that push water in the direction of tidal bulges on Earth.\n\nYou can run this animation (https://openstax.org/l/30visdemotidal) for a visual demonstration of the tidal bulge.\n\nNote that the tidal bulges in the oceans do not result from the Moon’s compressing or expanding the water, nor from the Moon’s lifting the water “away from Earth.” Rather, they result from an actual flow of water over Earth’s surface toward the two regions below and opposite the Moon, causing the water to pile up to greater depths at those places (Figure 4.18).\n\n[S3] (source: astronomy2e-ch04, page 140)\nand so are greater than normal (Figure 4.19). These are called spring tides (the name is connected not to the season but to the idea that higher tides “spring up”). Spring tides are approximately the same, whether the Sun and Moon are on the same or opposite sides of Earth, because tidal bulges occur on both sides. When the Moon is at first quarter or last quarter (at right angles to the Sun’s direction), the tides produced by the Sun partially cancel the tides of the Moon, making them lower than usual. These are called neap tides.\n\nFigure 4.19 Tides Caused by Different Alignments of the Sun and Moon. (a) In spring tides, the Sun’s and Moon’s pulls reinforce each other. (b) In neap tides, the Sun and the Moon pull at right angles to each other and the resulting tides are lower than usual.",
+    "label_map": {
+      "S1": "astronomy2e-ch04:p140:par800:3",
+      "S2": "astronomy2e-ch04:p139:par800:0",
+      "S3": "astronomy2e-ch04:p140:par800:0"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 2.63,
+    "prompt_tokens": 1239,
+    "completion_tokens": 78,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "In the chapter on Earth, Moon, and Sky: is the distance between the Moon and Earth changing, and how fast?",
+    "filter": {
+      "chapter": "4"
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "distance between the Moon and Earth changing speed",
+        "filter": {
+          "chapter": "4"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p121:par800:2",
+            "label": "S1",
+            "rank": 1,
+            "score": 10.33703,
+            "page": 121,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p125:par800:3",
+            "label": "S2",
+            "rank": 2,
+            "score": 6.77792,
+            "page": 125,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p137:par800:1",
+            "label": "S3",
+            "rank": 3,
+            "score": 6.18246,
+            "page": 137,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p121:par800:2",
+          "astronomy2e-ch04:p125:par800:3",
+          "astronomy2e-ch04:p137:par800:1"
+        ],
+        "retrieval_ms": 1.0,
+        "llm": {
+          "latency_ms": 1108,
+          "attempts": 1,
+          "prompt_tokens": 284,
+          "completion_tokens": 20,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "Moon distance from Earth changing speed",
+        "filter": {
+          "chapter": "4"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p121:par800:2",
+            "label": "S1",
+            "rank": 1,
+            "score": 8.73231,
+            "page": 121,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p137:par800:1",
+            "label": "S3",
+            "rank": 2,
+            "score": 6.18246,
+            "page": 137,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p134:par800:0",
+            "label": "S4",
+            "rank": 3,
+            "score": 5.64712,
+            "page": 134,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p121:par800:2",
+          "astronomy2e-ch04:p125:par800:3",
+          "astronomy2e-ch04:p137:par800:1",
+          "astronomy2e-ch04:p134:par800:0"
+        ],
+        "retrieval_ms": 1.4,
+        "llm": {
+          "latency_ms": 1319,
+          "attempts": 1,
+          "prompt_tokens": 925,
+          "completion_tokens": 18,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "Moon distance from Earth changing speed",
+        "filter": {
+          "chapter": "4"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p121:par800:2",
+            "label": "S1",
+            "rank": 1,
+            "score": 8.73231,
+            "page": 121,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p137:par800:1",
+            "label": "S3",
+            "rank": 2,
+            "score": 6.18246,
+            "page": 137,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p134:par800:0",
+            "label": "S4",
+            "rank": 3,
+            "score": 5.64712,
+            "page": 134,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p121:par800:2",
+          "astronomy2e-ch04:p125:par800:3",
+          "astronomy2e-ch04:p137:par800:1",
+          "astronomy2e-ch04:p134:par800:0"
+        ],
+        "retrieval_ms": 0.5,
+        "llm": {
+          "latency_ms": 962,
+          "attempts": 1,
+          "prompt_tokens": 1098,
+          "completion_tokens": 18,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved context does not contain information about whether the distance between the Moon and Earth is changing or how fast.",
+        "llm": {
+          "latency_ms": 1192,
+          "attempts": 1,
+          "prompt_tokens": 1079,
+          "completion_tokens": 36,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch04:p121:par800:2",
+      "astronomy2e-ch04:p125:par800:3",
+      "astronomy2e-ch04:p137:par800:1",
+      "astronomy2e-ch04:p134:par800:0"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch04, page 121)\nMany people have believed that the seasons were the result of the changing distance between Earth and the Sun. This sounds reasonable at first: it should be colder when Earth is farther from the Sun. But the facts don’t bear out this hypothesis. Although Earth’s orbit around the Sun is an ellipse, its distance from the Sun varies by only about 3%. That’s not enough to cause significant variations in the Sun’s heating. To make matters worse for people in North America who hold this hypothesis, Earth is actually closest to the Sun in January, when the Northern Hemisphere is in the middle of winter. And if distance were the governing factor, why would the two hemispheres have opposite seasons? As we shall show, the seasons are actually caused by the 23.5° tilt of Earth’s axis.\n\n[S2] (source: astronomy2e-ch04, page 125)\nThe Tropic of Cancer is at a latitude equal to Earth’s tilt, so in this case, it would be at 16° N latitude. The Arctic Circle is at a latitude equal to 90° minus Earth’s tilt, or 90° – 16° = 74°. The difference between these two latitudes is 74° – 16° = 58°. Since the tilt of Earth is less, there would be less variation in the tilt of Earth and less variation in the Sun’s paths throughout the year, so there would be milder seasonal changes.\n\nThe Columbia University’s Center for Teaching and Learning’s Motions of the Sun Simulator (https://openstax.org/l/30motionsunsim) allows you to see how the Sun’s changing altitude over the course of the year changes the intensity of lighting experienced on Earth. Select the “Step by day” option before running the animation to illustrate this effect.\n\n[S3] (source: astronomy2e-ch04, page 137)\nThe differences in the Moon’s appearance from one night to the next are due to changing illumination by the Sun, not to its own rotation. You sometimes hear the back side of the Moon (the side we never see) called the “dark side.” This is a misunderstanding of the real situation: which side is light and which is dark changes as the Moon moves around Earth. The back side is dark no more frequently than the front side. Since the Moon rotates, the Sun rises and sets on all sides of the Moon. With apologies to Pink Floyd, there is simply no regular “Dark Side of the Moon.” 4.5 • Phases and Motions of the Moon 119\n\n[S4] (source: astronomy2e-ch04, page 134)\nFigure 4.14 Phases of the Moon. The appearance of the Moon changes over the course of a complete monthly cycle. The pictures of the Moon on the blue circle show the perspective from space, with the Sun off to the right in a fixed position. The outer images show how the Moon appears to you in the sky from each point in the orbit. Imagine yourself standing on Earth, facing the Moon at each stage. In the position “New,” for example, you are facing the Moon from the right side of Earth in the middle of the day. (Note that the distance of the Moon from Earth is not to scale in this diagram: the Moon is roughly 30 Earth-diameters away from us.) (credit:",
+    "label_map": {
+      "S1": "astronomy2e-ch04:p121:par800:2",
+      "S2": "astronomy2e-ch04:p125:par800:3",
+      "S3": "astronomy2e-ch04:p137:par800:1",
+      "S4": "astronomy2e-ch04:p134:par800:0"
+    },
+    "n_searches": 3,
+    "n_llm_calls": 4,
+    "elapsed_s": 4.58,
+    "prompt_tokens": 3386,
+    "completion_tokens": 92,
+    "cost_usd": 0.0,
+    "abstain_reason": "The retrieved context does not contain information about whether the distance between the Moon and Earth is changing or how fast."
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "question": "How many moons does Mars have, and what are they called?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "Mars moons names",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p135:par800:5",
+            "label": "S1",
+            "rank": 1,
+            "score": 8.91792,
+            "page": 135,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p90:par800:1",
+            "label": "S2",
+            "rank": 2,
+            "score": 5.02011,
+            "page": 90,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p100:par800:0",
+            "label": "S3",
+            "rank": 3,
+            "score": 4.75451,
+            "page": 100,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p135:par800:5",
+          "astronomy2e-ch03:p90:par800:1",
+          "astronomy2e-ch03:p100:par800:0"
+        ],
+        "retrieval_ms": 0.4,
+        "llm": {
+          "latency_ms": 966,
+          "attempts": 1,
+          "prompt_tokens": 272,
+          "completion_tokens": 15,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "Mars moons count and names",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p135:par800:5",
+            "label": "S1",
+            "rank": 1,
+            "score": 8.91792,
+            "page": 135,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p90:par800:1",
+            "label": "S2",
+            "rank": 2,
+            "score": 5.02011,
+            "page": 90,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p100:par800:0",
+            "label": "S3",
+            "rank": 3,
+            "score": 4.75451,
+            "page": 100,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p135:par800:5",
+          "astronomy2e-ch03:p90:par800:1",
+          "astronomy2e-ch03:p100:par800:0"
+        ],
+        "retrieval_ms": 0.4,
+        "llm": {
+          "latency_ms": 1050,
+          "attempts": 1,
+          "prompt_tokens": 859,
+          "completion_tokens": 17,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "Mars moons count",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch03:p90:par800:1",
+            "label": "S2",
+            "rank": 1,
+            "score": 5.02011,
+            "page": 90,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p100:par800:0",
+            "label": "S3",
+            "rank": 2,
+            "score": 4.75451,
+            "page": 100,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p88:par800:5",
+            "label": "S4",
+            "rank": 3,
+            "score": 4.48065,
+            "page": 88,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p135:par800:5",
+          "astronomy2e-ch03:p90:par800:1",
+          "astronomy2e-ch03:p100:par800:0",
+          "astronomy2e-ch03:p88:par800:5"
+        ],
+        "retrieval_ms": 0.4,
+        "llm": {
+          "latency_ms": 1876,
+          "attempts": 1,
+          "prompt_tokens": 866,
+          "completion_tokens": 46,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved context does not contain information about the number of moons Mars has or their names.",
+        "llm": {
+          "latency_ms": 1417,
+          "attempts": 1,
+          "prompt_tokens": 1026,
+          "completion_tokens": 32,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch04:p135:par800:5",
+      "astronomy2e-ch03:p90:par800:1",
+      "astronomy2e-ch03:p100:par800:0",
+      "astronomy2e-ch03:p88:par800:5"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch04, page 135)\nAstronomy and the Days of the Week The week seems independent of celestial motions, although its length may have been based on the time between quarter phases of the Moon. In Western culture, the seven days of the week are named after the seven “wanderers” that the ancients saw in the sky: the Sun, the Moon, and the five planets visible to the unaided eye (Mercury, Venus, Mars, Jupiter, and Saturn).\n\nIn English, we can easily recognize the names Sun-day (Sunday), Moon-day (Monday), and Saturn-day (Saturday), but the other days are named after the Norse equivalents of the Roman gods that gave their names to the planets. In languages more directly related to Latin, the correspondences are clearer.\n\n[S2] (source: astronomy2e-ch03, page 90)\nFor instance, suppose you time how long Mars takes to go around the Sun (in Earth years). Kepler’s third law can then be used to calculate Mars’ average distance from the Sun. Mars’ orbital period (1.88 Earth years) squared, or , is , and according to the equation for Kepler’s third law, this equals the cube of its semimajor axis, or . So what number must be cubed to give 3.53? The answer is . Thus, Mars’ semimajor axis in astronomical units must be 1.52 AU. In other words, to go around the Sun in a little less than two years, Mars must be about 50% (half again) as far from the Sun as Earth is.\n\nEXAMPLE 3. 1 Calculating Periods Imagine an object is traveling around the Sun. What would be the orbital period of the object if its orbit has a semimajor axis of 50 AU?\n\n[S3] (source: astronomy2e-ch03, page 100)\nthe planets, or the mass of Jupiter by noting the motions of its moons.\n\nIndeed, Newton’s reformulation of Kepler’s third law is one of the most powerful concepts in astronomy. Our ability to deduce the masses of objects from their motions is key to understanding the nature and evolution of many astronomical bodies. We will use this law repeatedly throughout this text in calculations that range from the orbits of comets to the interactions of galaxies.\n\n[S4] (source: astronomy2e-ch03, page 88)\nKepler’s second law deals with the speed with which each planet moves along its ellipse, also known as its orbital speed. Working with Brahe’s observations of Mars, Kepler discovered that the planet speeds up as it comes closer to the Sun and slows down as it pulls away from the Sun. He expressed the precise form of this relationship by imagining that the Sun and Mars are connected by a straight, elastic line. When Mars is closer to the Sun (positions 1 and 2 in Figure 3.5), the elastic line is not stretched as much, and the planet moves rapidly. Farther from the Sun, as in positions 3 and 4, the line is stretched a lot, and the planet does not move 70 3 • Orbits and Gravity Access for free at openstax.org",
+    "label_map": {
+      "S1": "astronomy2e-ch04:p135:par800:5",
+      "S2": "astronomy2e-ch03:p90:par800:1",
+      "S3": "astronomy2e-ch03:p100:par800:0",
+      "S4": "astronomy2e-ch03:p88:par800:5"
+    },
+    "n_searches": 3,
+    "n_llm_calls": 4,
+    "elapsed_s": 5.31,
+    "prompt_tokens": 3023,
+    "completion_tokens": 110,
+    "cost_usd": 0.0,
+    "abstain_reason": "The retrieved context does not contain information about the number of moons Mars has or their names."
+  },
+  {
+    "query_id": "u02",
+    "split": "dev",
+    "question": "How many leap seconds have been added to atomic time since they were introduced?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "bm25",
+        "query": "leap seconds added to atomic time",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p132:par800:4",
+            "label": "S1",
+            "rank": 1,
+            "score": 8.2149,
+            "page": 132,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p132:par800:3",
+            "label": "S2",
+            "rank": 2,
+            "score": 5.03449,
+            "page": 132,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p132:par800:1",
+            "label": "S3",
+            "rank": 3,
+            "score": 4.35753,
+            "page": 132,
+            "neighbor_of": null
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p132:par800:4",
+          "astronomy2e-ch04:p132:par800:3",
+          "astronomy2e-ch04:p132:par800:1"
+        ],
+        "retrieval_ms": 1.2,
+        "llm": {
+          "latency_ms": 964,
+          "attempts": 1,
+          "prompt_tokens": 274,
+          "completion_tokens": 19,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved context does not contain information about the number of leap seconds added to atomic time.",
+        "llm": {
+          "latency_ms": 1065,
+          "attempts": 1,
+          "prompt_tokens": 881,
+          "completion_tokens": 32,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch04:p132:par800:4",
+      "astronomy2e-ch04:p132:par800:3",
+      "astronomy2e-ch04:p132:par800:1"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch04, page 132)\nThe Gregorian calendar reform consisted of two steps. First, 10 days had to be dropped out of the calendar to bring the vernal equinox back to March 21; by proclamation, the day following October 4, 1582, became October 15. The second feature of the new Gregorian calendar was a change in the rule for leap year, making the average length of the year more closely approximate the tropical year. Gregory decreed that three of every four century years—all leap years under the Julian calendar—would be common years henceforth. The rule was that only century years divisible by 400 would be leap years. Thus, 1700, 1800, and 1900—all divisible by 4 but not by 400—were not leap years in the Gregorian calendar. On the other hand, the years 1600 and 2000, both divisible by 400, were leap years.\n\n[S2] (source: astronomy2e-ch04, page 132)\nThe Gregorian Calendar Although the Julian calendar (which was adopted by the early Christian Church) represented a great advance, its average year still differed from the true year by about 11 minutes, an amount that accumulates over the centuries to an appreciable error. By 1582, that 11 minutes per year had added up to the point where the first day of spring was occurring on March 11, instead of March 21. If the trend were allowed to continue, eventually the Christian celebration of Easter would be occurring in early winter. Pope Gregory XIII, a contemporary of Galileo, felt it necessary to institute further calendar reform.\n\n[S3] (source: astronomy2e-ch04, page 132)\nOur Western calendar derives from a long history of timekeeping beginning with the Sumerians, dating back to at least the second millennium BCE, and continuing with the Egyptians and the Greeks around the eighth century BCE. These calendars led, eventually, to the Julian calendar, introduced by Julius Caesar, which approximated the year at 365.25 days, fairly close to the actual value of 365.2422. The Romans achieved this approximation by declaring years to have 365 days each, with the exception of every fourth year. The leap year was to have one extra day, bringing its length to 366 days, and thus making the average length of the year in the Julian calendar 365.25 days.",
+    "label_map": {
+      "S1": "astronomy2e-ch04:p132:par800:4",
+      "S2": "astronomy2e-ch04:p132:par800:3",
+      "S3": "astronomy2e-ch04:p132:par800:1"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 2.03,
+    "prompt_tokens": 1155,
+    "completion_tokens": 51,
+    "cost_usd": 0.0,
+    "abstain_reason": "The retrieved context does not contain information about the number of leap seconds added to atomic time."
+  }
+]

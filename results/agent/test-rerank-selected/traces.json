@@ -1,0 +1,986 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "In the chapter on Earth, Moon, and Sky: by roughly what percentage does Earth's distance from the Sun change during the year?",
+    "filter": {
+      "chapter": "4"
+    },
+    "status": "answered",
+    "answer": "Earth's distance from the Sun changes by only about 3% during the year [astronomy2e-ch04:p121:par800:2].",
+    "citations": [
+      "astronomy2e-ch04:p121:par800:2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "rerank",
+        "query": "Earth distance from the Sun change percentage during the year",
+        "filter": {
+          "chapter": "4"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p121:par800:2",
+            "label": "S1",
+            "rank": 1,
+            "score": 3.14869,
+            "page": 121,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p121:par800:3",
+            "label": "S2",
+            "rank": 1,
+            "score": 0.0,
+            "page": 121,
+            "neighbor_of": "astronomy2e-ch04:p121:par800:2"
+          },
+          {
+            "id": "astronomy2e-ch04:p121:par800:1",
+            "label": "S3",
+            "rank": 1,
+            "score": 0.0,
+            "page": 121,
+            "neighbor_of": "astronomy2e-ch04:p121:par800:2"
+          },
+          {
+            "id": "astronomy2e-ch04:p125:par800:3",
+            "label": "S4",
+            "rank": 2,
+            "score": -0.84028,
+            "page": 125,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p125:par800:4",
+            "label": "S5",
+            "rank": 2,
+            "score": 0.0,
+            "page": 125,
+            "neighbor_of": "astronomy2e-ch04:p125:par800:3"
+          },
+          {
+            "id": "astronomy2e-ch04:p125:par800:2",
+            "label": "S6",
+            "rank": 2,
+            "score": 0.0,
+            "page": 125,
+            "neighbor_of": "astronomy2e-ch04:p125:par800:3"
+          },
+          {
+            "id": "astronomy2e-ch04:p123:par800:1",
+            "label": "S7",
+            "rank": 3,
+            "score": -2.21188,
+            "page": 123,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p123:par800:2",
+            "label": "S8",
+            "rank": 3,
+            "score": 0.0,
+            "page": 123,
+            "neighbor_of": "astronomy2e-ch04:p123:par800:1"
+          },
+          {
+            "id": "astronomy2e-ch04:p123:par800:0",
+            "label": "S9",
+            "rank": 3,
+            "score": 0.0,
+            "page": 123,
+            "neighbor_of": "astronomy2e-ch04:p123:par800:1"
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p121:par800:2",
+          "astronomy2e-ch04:p121:par800:3",
+          "astronomy2e-ch04:p121:par800:1",
+          "astronomy2e-ch04:p125:par800:3",
+          "astronomy2e-ch04:p125:par800:4",
+          "astronomy2e-ch04:p125:par800:2",
+          "astronomy2e-ch04:p123:par800:1",
+          "astronomy2e-ch04:p123:par800:2"
+        ],
+        "retrieval_ms": 1200.6,
+        "llm": {
+          "latency_ms": 1311,
+          "attempts": 1,
+          "prompt_tokens": 285,
+          "completion_tokens": 22,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "Earth's distance from the Sun changes by only about 3% during the year [S1].",
+        "raw_citations": [
+          "S1"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [],
+        "llm": {
+          "latency_ms": 1454,
+          "attempts": 1,
+          "prompt_tokens": 1678,
+          "completion_tokens": 39,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch04:p121:par800:2",
+      "astronomy2e-ch04:p121:par800:3",
+      "astronomy2e-ch04:p121:par800:1",
+      "astronomy2e-ch04:p125:par800:3",
+      "astronomy2e-ch04:p125:par800:4",
+      "astronomy2e-ch04:p125:par800:2",
+      "astronomy2e-ch04:p123:par800:1",
+      "astronomy2e-ch04:p123:par800:2"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch04, page 121)\nMany people have believed that the seasons were the result of the changing distance between Earth and the Sun. This sounds reasonable at first: it should be colder when Earth is farther from the Sun. But the facts don’t bear out this hypothesis. Although Earth’s orbit around the Sun is an ellipse, its distance from the Sun varies by only about 3%. That’s not enough to cause significant variations in the Sun’s heating. To make matters worse for people in North America who hold this hypothesis, Earth is actually closest to the Sun in January, when the Northern Hemisphere is in the middle of winter. And if distance were the governing factor, why would the two hemispheres have opposite seasons? As we shall show, the seasons are actually caused by the 23.5° tilt of Earth’s axis.\n\n[S2] (source: astronomy2e-ch04, page 121)\nThe Seasons and Sunshine Figure 4.5 shows Earth’s annual path around the Sun, with Earth’s axis tilted by 23.5°. Note that our axis continues to point the same direction in the sky throughout the year. As Earth travels around the Sun, in June the Northern Hemisphere “leans into” the Sun and is more directly illuminated. In December, the situation is reversed: the Southern Hemisphere leans into the Sun, and the Northern Hemisphere leans away. In Describe how the tilt of Earth’s axis causes the seasons Explain how seasonal differences on Earth vary with latitude 4.2 • The Seasons 103\n\n[S3] (source: astronomy2e-ch04, page 121)\nOne of the fundamental facts of life at Earth’s midlatitudes, where most of this book’s readers live, is that there are significant variations in the heat we receive from the Sun during the course of the year. We thus divide the year into seasons, each with its different amount of sunlight. The difference between seasons gets more pronounced the farther north or south from the equator we travel, and the seasons in the Southern Hemisphere are the opposite of what we find on the northern half of Earth. With these observed facts in mind, let us ask what causes the seasons.\n\n[S4] (source: astronomy2e-ch04, page 125)\nThe Tropic of Cancer is at a latitude equal to Earth’s tilt, so in this case, it would be at 16° N latitude. The Arctic Circle is at a latitude equal to 90° minus Earth’s tilt, or 90° – 16° = 74°. The difference between these two latitudes is 74° – 16° = 58°. Since the tilt of Earth is less, there would be less variation in the tilt of Earth and less variation in the Sun’s paths throughout the year, so there would be milder seasonal changes.\n\nThe Columbia University’s Center for Teaching and Learning’s Motions of the Sun Simulator (https://openstax.org/l/30motionsunsim) allows you to see how the Sun’s changing altitude over the course of the year changes the intensity of lighting experienced on Earth. Select the “Step by day” option before running the animation to illustrate this effect.\n\n[S5] (source: astronomy2e-ch04, page 125)\nMany cultures that developed some distance north of the equator have a celebration around December 21 to help people deal with the depressing lack of sunlight and the often dangerously cold temperatures. Originally, this was often a time for huddling with family and friends, for sharing the reserves of food and drink, and for rituals asking the gods to return the light and heat and turn the cycle of the seasons around. Many cultures constructed elaborate devices for anticipating when the shortest day of the year was coming. Stonehenge in England, built long before the invention of writing, is probably one such device. In our own time, we continue LINK TO LEARNING 4.2 • The Seasons 107\n\n[S6] (source: astronomy2e-ch04, page 125)\nSolution If Earth were tilted less, the seasons would be less extreme. The variation in day length and direct sunlight would be very small over the course of a year, and the Sun’s daily path in the sky would not vary much. If Earth were tilted by 5°, the Sun’s position on the day of the summer solstice would be 5° N of the celestial equator, so the Tropic of Cancer would be at the corresponding latitude on Earth of 5° N of the Equator. The Arctic Circle would be located at 90° – 5° = 85° N of the equator.\n\nCheck Your Learning Suppose the tilt of Earth’s axis were 16°. What, then, would be the difference in latitude between the Arctic Circle and the Tropic of Cancer? What would be the effect on the seasons compared with that produced by the actual tilt of 23°?\n\nAnswer:\n\n[S7] (source: astronomy2e-ch04, page 123)\nAs we saw in Observing the Sky: The Birth of Astronomy, an equivalent way to look at our path around the Sun each year is to pretend that the Sun moves around Earth (on a circle called the ecliptic). Because Earth’s axis is tilted, the ecliptic is tilted by about 23.5° relative to the celestial equator (review Figure 2.7). As a result, where we see the Sun in the sky changes as the year wears on.\n\n[S8] (source: astronomy2e-ch04, page 123)\nIn June, the Sun is north of the celestial equator and spends more time with those who live in the Northern Hemisphere. It rises high in the sky and is above the horizon in the United States for as long as 15 hours. Thus, the Sun not only heats us with more direct rays, but it also has more time to do it each day. (Notice in Figure 4.7 that the Northern Hemisphere’s gain is the Southern Hemisphere’s loss. There the June Sun is low in the sky, meaning fewer daylight hours. In Chile, for example, June is a colder, darker time of year.) In December, when the Sun is south of the celestial equator, the situation is reversed.",
+    "label_map": {
+      "S1": "astronomy2e-ch04:p121:par800:2",
+      "S2": "astronomy2e-ch04:p121:par800:3",
+      "S3": "astronomy2e-ch04:p121:par800:1",
+      "S4": "astronomy2e-ch04:p125:par800:3",
+      "S5": "astronomy2e-ch04:p125:par800:4",
+      "S6": "astronomy2e-ch04:p125:par800:2",
+      "S7": "astronomy2e-ch04:p123:par800:1",
+      "S8": "astronomy2e-ch04:p123:par800:2",
+      "S9": "astronomy2e-ch04:p123:par800:0"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 3.97,
+    "prompt_tokens": 1963,
+    "completion_tokens": 61,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "In the chapter on Orbits and Gravity: what are the closest and farthest points in the orbit of an object circling Earth called?",
+    "filter": {
+      "chapter": "3"
+    },
+    "status": "answered",
+    "answer": "The closest point in the orbit of an object circling Earth is called perigee, while the farthest point is called apogee [astronomy2e-ch03:p101:par800:1].",
+    "citations": [
+      "astronomy2e-ch03:p101:par800:1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "rerank",
+        "query": "closest and farthest points in the orbit of an object circling Earth",
+        "filter": {
+          "chapter": "3"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch03:p101:par800:1",
+            "label": "S1",
+            "rank": 1,
+            "score": 4.58006,
+            "page": 101,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p101:par800:2",
+            "label": "S2",
+            "rank": 1,
+            "score": 0.0,
+            "page": 101,
+            "neighbor_of": "astronomy2e-ch03:p101:par800:1"
+          },
+          {
+            "id": "astronomy2e-ch03:p101:par800:0",
+            "label": "S3",
+            "rank": 1,
+            "score": 0.0,
+            "page": 101,
+            "neighbor_of": "astronomy2e-ch03:p101:par800:1"
+          },
+          {
+            "id": "astronomy2e-ch03:p101:par800:4",
+            "label": "S4",
+            "rank": 2,
+            "score": -1.47326,
+            "page": 101,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p101:par800:5",
+            "label": "S5",
+            "rank": 2,
+            "score": 0.0,
+            "page": 101,
+            "neighbor_of": "astronomy2e-ch03:p101:par800:4"
+          },
+          {
+            "id": "astronomy2e-ch03:p101:par800:3",
+            "label": "S6",
+            "rank": 2,
+            "score": 0.0,
+            "page": 101,
+            "neighbor_of": "astronomy2e-ch03:p101:par800:4"
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch03:p101:par800:1",
+          "astronomy2e-ch03:p101:par800:2",
+          "astronomy2e-ch03:p101:par800:0",
+          "astronomy2e-ch03:p101:par800:4",
+          "astronomy2e-ch03:p101:par800:5",
+          "astronomy2e-ch03:p101:par800:3"
+        ],
+        "retrieval_ms": 456.3,
+        "llm": {
+          "latency_ms": 1047,
+          "attempts": 1,
+          "prompt_tokens": 287,
+          "completion_tokens": 26,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "The closest point in the orbit of an object circling Earth is called perigee, while the farthest point is called apogee [S1].",
+        "raw_citations": [
+          "S1"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [],
+        "llm": {
+          "latency_ms": 1574,
+          "attempts": 1,
+          "prompt_tokens": 1227,
+          "completion_tokens": 51,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch03:p101:par800:1",
+      "astronomy2e-ch03:p101:par800:2",
+      "astronomy2e-ch03:p101:par800:0",
+      "astronomy2e-ch03:p101:par800:4",
+      "astronomy2e-ch03:p101:par800:5",
+      "astronomy2e-ch03:p101:par800:3"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch03, page 101)\nTwo points in any orbit in our solar system have been given special names. The place where the planet is closest to the Sun (helios in Greek) and moves the fastest is called the perihelion of its orbit, and the place where it is farthest away and moves the most slowly is the aphelion. For the Moon or a satellite orbiting Earth (gee in Greek), the corresponding terms are perigee and apogee. (In this book, we use the word moon for a natural object that goes around a planet and the word satellite to mean a human-made object that revolves around a planet.) Orbits of the Planets Today, Newton’s work enables us to calculate and predict the orbits of the planets with marvelous precision.\n\n[S2] (source: astronomy2e-ch03, page 101)\nWe know eight planets, beginning with Mercury closest to the Sun and extending outward to Neptune. The average orbital data for the planets are summarized in Table 3.2. (Ceres is the largest of the asteroids, now considered a dwarf planet.) According to Kepler’s laws, Mercury must have the shortest orbital period (88 Earth-days); thus, it has the highest orbital speed, averaging 48 kilometers per second. At the opposite extreme, Neptune has a period of 165 years and an average orbital speed of just 5 kilometers per second.\n\n[S3] (source: astronomy2e-ch03, page 101)\n3.4 Orbits in the Solar System Learning Objectives By the end of this section, you will be able to:\n\nRecall that the path of an object under the influence of gravity through space is called its orbit, whether that object is a spacecraft, planet, star, or galaxy. An orbit, once determined, allows the future positions of the object to be calculated.\n\n[S4] (source: astronomy2e-ch03, page 101)\nThe planetary orbits are also confined close to a common plane, which is near the plane of Earth’s orbit (called the ecliptic). The strange orbit of the dwarf planet Pluto is inclined about 17° to the ecliptic, and that of the dwarf planet Eris (orbiting even farther away from the Sun than Pluto) by 44°, but all the major planets lie within 10° of the common plane of the solar system.\n\nJavaLab’s solar system simulator (https://openstax.org/l/30solarsim) allows you to explore the size and speed of the planets’ orbits, and view the orbits from different perspectives.\n\n[S5] (source: astronomy2e-ch03, page 101)\nOrbits of Asteroids and Comets In addition to the eight planets, there are many smaller objects in the solar system. Some of these are moons (natural satellites) that orbit all the planets except Mercury and Venus. In addition, there are two classes of smaller objects in heliocentric orbits: asteroids and comets. Both asteroids and comets are believed to be small chunks of material left over from the formation process of the solar system.\n\nIn general, asteroids have orbits with smaller semimajor axes than do comets (Figure 3.10). The majority of Compare the orbital characteristics of the planets in the solar system Compare the orbital characteristics of asteroids and comets in the solar system LINK TO LEARNING 3.4 • Orbits in the Solar System 83\n\n[S6] (source: astronomy2e-ch03, page 101)\nAll the planets have orbits of rather low eccentricity. The most eccentric orbit is that of Mercury (0.21); the rest have eccentricities smaller than 0.1. It is fortunate that among the rest, Mars has an eccentricity greater than that of many of the other planets. Otherwise the pre-telescopic observations of Brahe would not have been sufficient for Kepler to deduce that its orbit had the shape of an ellipse rather than a circle.",
+    "label_map": {
+      "S1": "astronomy2e-ch03:p101:par800:1",
+      "S2": "astronomy2e-ch03:p101:par800:2",
+      "S3": "astronomy2e-ch03:p101:par800:0",
+      "S4": "astronomy2e-ch03:p101:par800:4",
+      "S5": "astronomy2e-ch03:p101:par800:5",
+      "S6": "astronomy2e-ch03:p101:par800:3"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 3.08,
+    "prompt_tokens": 1514,
+    "completion_tokens": 77,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Why do comets spend most of their time far away from the Sun?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Comets spend most of their time far away from the Sun because they have orbits with high eccentricity, typically 0.8 or higher. According to Kepler's second law, this means they move very slowly when they are far from the Sun, allowing them to spend a significant amount of time in the outer regions of their orbits before speeding up as they approach perihelion. [astronomy2e-ch03:p103:par800:0]",
+    "citations": [
+      "astronomy2e-ch03:p103:par800:0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "rerank",
+        "query": "comets spend most of their time far away from the Sun",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch03:p103:par800:0",
+            "label": "S1",
+            "rank": 1,
+            "score": 7.43719,
+            "page": 103,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p103:par800:1",
+            "label": "S2",
+            "rank": 1,
+            "score": 0.0,
+            "page": 103,
+            "neighbor_of": "astronomy2e-ch03:p103:par800:0"
+          },
+          {
+            "id": "astronomy2e-ch03:p102:par800:0",
+            "label": "S3",
+            "rank": 2,
+            "score": -3.65936,
+            "page": 102,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p102:par800:1",
+            "label": "S4",
+            "rank": 2,
+            "score": 0.0,
+            "page": 102,
+            "neighbor_of": "astronomy2e-ch03:p102:par800:0"
+          },
+          {
+            "id": "astronomy2e-ch04:p141:par800:2",
+            "label": "S5",
+            "rank": 3,
+            "score": -3.89317,
+            "page": 141,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p141:par800:3",
+            "label": "S6",
+            "rank": 3,
+            "score": 0.0,
+            "page": 141,
+            "neighbor_of": "astronomy2e-ch04:p141:par800:2"
+          },
+          {
+            "id": "astronomy2e-ch04:p141:par800:1",
+            "label": "S7",
+            "rank": 3,
+            "score": 0.0,
+            "page": 141,
+            "neighbor_of": "astronomy2e-ch04:p141:par800:2"
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch03:p103:par800:0",
+          "astronomy2e-ch03:p103:par800:1",
+          "astronomy2e-ch03:p102:par800:0",
+          "astronomy2e-ch03:p102:par800:1",
+          "astronomy2e-ch04:p141:par800:2",
+          "astronomy2e-ch04:p141:par800:3",
+          "astronomy2e-ch04:p141:par800:1"
+        ],
+        "retrieval_ms": 364.2,
+        "llm": {
+          "latency_ms": 1224,
+          "attempts": 1,
+          "prompt_tokens": 274,
+          "completion_tokens": 24,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "Comets spend most of their time far away from the Sun because they have orbits with high eccentricity, typically 0.8 or higher. According to Kepler's second law, this means they move very slowly when they are far from the Sun, allowing them to spend a significant amount of time in the outer regions of their orbits before speeding up as they approach perihelion.",
+        "raw_citations": [
+          "S1"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [
+          "S1"
+        ],
+        "llm": {
+          "latency_ms": 2735,
+          "attempts": 1,
+          "prompt_tokens": 1509,
+          "completion_tokens": 97,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch03:p103:par800:0",
+      "astronomy2e-ch03:p103:par800:1",
+      "astronomy2e-ch03:p102:par800:0",
+      "astronomy2e-ch03:p102:par800:1",
+      "astronomy2e-ch04:p141:par800:2",
+      "astronomy2e-ch04:p141:par800:3",
+      "astronomy2e-ch04:p141:par800:1"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch03, page 103)\nPlanet Semimajor Axis (AU) Period (y) Eccentricity Saturn 9.54 29.46 0.06 Uranus 19.19 84.01 0.05 Neptune 30.06 164.82 0.01 Table 3.2 Comets generally have orbits of larger size and greater eccentricity than those of the asteroids. Typically, the eccentricity of their orbits is 0.8 or higher. According to Kepler’s second law, therefore, they spend most of their time far from the Sun, moving very slowly. As they approach perihelion, the comets speed up and whip through the inner parts of their orbits more rapidly.\n\n3.5 Motions of Satellites and Spacecraft Learning Objectives By the end of this section, you will be able to:\n\n[S2] (source: astronomy2e-ch03, page 103)\nNewton’s universal law of gravitation and Kepler’s laws describe the motions of Earth satellites and interplanetary spacecraft as well as the planets. Sputnik, the first artificial Earth satellite, was launched by what was then called the Soviet Union on October 4, 1957. Since that time, thousands of satellites have been placed into orbit around Earth, and spacecraft have also orbited the Moon, Venus, Mars, Jupiter, Saturn, and a number of asteroids and comets.\n\n[S3] (source: astronomy2e-ch03, page 102)\nthem lie between 2.2 and 3.3 AU, in the region known as the asteroid belt (see Comets and Asteroids: Debris of the Solar System). As you can see in Table 3.2, the asteroid belt (represented by its largest member, Ceres) is in the middle of a gap between the orbits of Mars and Jupiter. It is because these two planets are so far apart that stable orbits of small bodies can exist in the region between them.\n\nFigure 3.10 Solar System Orbits. We see the orbits of typical comets and asteroids compared with those of the planets Mercury, Venus, Earth, Mars, and Jupiter (black circles). Shown in red are three comets: Halley, Kopff, and Encke. In blue are the four largest asteroids: Ceres, Pallas, Vesta, and Hygeia.\n\n[S4] (source: astronomy2e-ch03, page 102)\nOrbital Data for the Planets Planet Semimajor Axis (AU) Period (y) Eccentricity Mercury 0.39 0.24 0.21 Venus 0.72 0.6 0.01 Earth 1 1.00 0.02 Mars 1.52 1.88 0.09 (Ceres) 2.77 4.6 0.08 Jupiter 5.20 11.86 0.05 Table 3.2 84 3 • Orbits and Gravity Access for free at openstax.org\n\n[S5] (source: astronomy2e-ch04, page 141)\nOne of the coincidences of living on Earth at the present time is that the two most prominent astronomical objects, the Sun and the Moon, have nearly the same apparent size in the sky. Although the Sun is about 400 times larger in diameter than the Moon, it is also about 400 times farther away, so both the Sun and the Moon have the same angular size—about 1/2°. As a result, the Moon, as seen from Earth, can appear to cover the Sun, producing one of the most impressive events in nature.\n\nAny solid object in the solar system casts a shadow by blocking the light of the Sun from a region behind it.\n\n[S6] (source: astronomy2e-ch04, page 141)\nThis shadow in space becomes apparent whenever another object moves into it. In general, an eclipse occurs whenever any part of either Earth or the Moon enters the shadow of the other. When the Moon’s shadow strikes Earth, people within that shadow see the Sun at least partially covered by the Moon; that is, they witness a solar eclipse. When the Moon passes into the shadow of Earth, people on the night side of Earth see the Moon darken in what is called a lunar eclipse. Let’s look at how these happen in more detail.\n\nDescribe what causes lunar and solar eclipses Differentiate between a total and partial solar eclipse Explain why lunar eclipses are much more common than solar eclipses 4.7 • Eclipses of the Sun and Moon 123\n\n[S7] (source: astronomy2e-ch04, page 141)\nThese show that the Moon is moving away by 3.8 centimeters per year, and that ultimately—billions of years in the future—the day and the month will be the same length (about 47 of our present days). At this point the Moon will be stationary in the sky over the same spot on Earth, meaning some parts of Earth will see the Moon and its phases and other parts will never see them. This kind of alignment is already true for Pluto’s moon Charon (among others). Its rotation and orbital period are the same length as a day on Pluto.\n\n4.7 Eclipses of the Sun and Moon Learning Objectives By the end of this section, you will be able to:",
+    "label_map": {
+      "S1": "astronomy2e-ch03:p103:par800:0",
+      "S2": "astronomy2e-ch03:p103:par800:1",
+      "S3": "astronomy2e-ch03:p102:par800:0",
+      "S4": "astronomy2e-ch03:p102:par800:1",
+      "S5": "astronomy2e-ch04:p141:par800:2",
+      "S6": "astronomy2e-ch04:p141:par800:3",
+      "S7": "astronomy2e-ch04:p141:par800:1"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 4.32,
+    "prompt_tokens": 1783,
+    "completion_tokens": 121,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Why don't we see an eclipse of the Sun and of the Moon every month?",
+    "filter": null,
+    "status": "answered",
+    "answer": "We don't see an eclipse of the Sun and the Moon every month because the Moon's orbit is tilted about 5° relative to the plane of Earth's orbit around the Sun (the ecliptic). This tilt means that most of the time, the Moon is positioned either above or below the ecliptic plane, preventing it from aligning perfectly with the Sun and Earth to cause an eclipse. Eclipses can only occur when the Moon's orbit crosses the ecliptic, which happens twice a year during what is known as \"eclipse season\" [astronomy2e-ch04:p142:par800:2].",
+    "citations": [
+      "astronomy2e-ch04:p142:par800:2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "rerank",
+        "query": "eclipse of the Sun and of the Moon every month",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p142:par800:2",
+            "label": "S1",
+            "rank": 1,
+            "score": 8.26128,
+            "page": 142,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p142:par800:3",
+            "label": "S2",
+            "rank": 1,
+            "score": 0.0,
+            "page": 142,
+            "neighbor_of": "astronomy2e-ch04:p142:par800:2"
+          },
+          {
+            "id": "astronomy2e-ch04:p142:par800:1",
+            "label": "S3",
+            "rank": 1,
+            "score": 0.0,
+            "page": 142,
+            "neighbor_of": "astronomy2e-ch04:p142:par800:2"
+          },
+          {
+            "id": "astronomy2e-ch04:p147:par800:0",
+            "label": "S4",
+            "rank": 2,
+            "score": 2.81785,
+            "page": 147,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p147:par800:1",
+            "label": "S5",
+            "rank": 2,
+            "score": 0.0,
+            "page": 147,
+            "neighbor_of": "astronomy2e-ch04:p147:par800:0"
+          },
+          {
+            "id": "astronomy2e-ch04:p143:par800:0",
+            "label": "S6",
+            "rank": 3,
+            "score": 1.21419,
+            "page": 143,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p143:par800:1",
+            "label": "S7",
+            "rank": 3,
+            "score": 0.0,
+            "page": 143,
+            "neighbor_of": "astronomy2e-ch04:p143:par800:0"
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p142:par800:2",
+          "astronomy2e-ch04:p142:par800:3",
+          "astronomy2e-ch04:p142:par800:1",
+          "astronomy2e-ch04:p147:par800:0",
+          "astronomy2e-ch04:p147:par800:1",
+          "astronomy2e-ch04:p143:par800:0",
+          "astronomy2e-ch04:p143:par800:1"
+        ],
+        "retrieval_ms": 372.1,
+        "llm": {
+          "latency_ms": 1724,
+          "attempts": 1,
+          "prompt_tokens": 275,
+          "completion_tokens": 59,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "We don't see an eclipse of the Sun and the Moon every month because the Moon's orbit is tilted about 5° relative to the plane of Earth's orbit around the Sun (the ecliptic). This tilt means that most of the time, the Moon is positioned either above or below the ecliptic plane, preventing it from aligning perfectly with the Sun and Earth to cause an eclipse. Eclipses can only occur when the Moon's orbit crosses the ecliptic, which happens twice a year during what is known as \"eclipse season\" [S1].",
+        "raw_citations": [
+          "S1"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [],
+        "llm": {
+          "latency_ms": 2369,
+          "attempts": 1,
+          "prompt_tokens": 1329,
+          "completion_tokens": 133,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch04:p142:par800:2",
+      "astronomy2e-ch04:p142:par800:3",
+      "astronomy2e-ch04:p142:par800:1",
+      "astronomy2e-ch04:p147:par800:0",
+      "astronomy2e-ch04:p147:par800:1",
+      "astronomy2e-ch04:p143:par800:0",
+      "astronomy2e-ch04:p143:par800:1"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch04, page 142)\nIf the path of the Moon in the sky were identical to the path of the Sun (the ecliptic), we might expect to see an eclipse of the Sun and the Moon each month—whenever the Moon got in front of the Sun or into the shadow of Earth. However, as we mentioned, the Moon’s orbit is tilted relative to the plane of Earth’s orbit about the Sun by about 5° (imagine two hula hoops with a common center, but tilted a bit). As a result, during most months, the Moon is sufficiently above or below the ecliptic plane to avoid an eclipse. But when the two paths cross (twice a year), it is then “eclipse season” and eclipses are possible.\n\n[S2] (source: astronomy2e-ch04, page 142)\nEclipses of the Sun The apparent or angular sizes of both the Sun and Moon vary slightly from time to time as their distances from Earth vary. (Figure 4.21 shows the distance of the observer varying at points 1–4, but the idea is the same.) Much of the time, the Moon looks slightly smaller than the Sun and cannot cover it completely, even if the two are perfectly aligned. In this type of “annular eclipse,” there is a ring of light around the dark sphere of the Moon.\n\n124 4 • Earth, Moon, and Sky Access for free at openstax.org\n\n[S3] (source: astronomy2e-ch04, page 142)\nFigure 4.21 Solar Eclipse. (a) The shadow cast by a spherical body (the Moon, for example) is shown. Notice the dark umbra and the lighter penumbra. Four points in the shadow are labeled with numbers. In (b) you see what the Sun and Moon would look like in the sky at the four labeled points. At position 1, you see a total eclipse. At positions 2 and 3, the eclipse is partial. At position 4, the Moon is farther away and thus cannot cover the Sun completely; a ring of light thus shows around the Sun, creating what is called an “annular” eclipse.\n\n[S4] (source: astronomy2e-ch04, page 147)\nFigure 4.25 2017 Total Solar and Lunar Eclipse (a) The eclipsed Sun August 21, 2017, showing remarkable detail in the Sun’s outer atmosphere. This is a composite of short, medium, and long exposures, as no single exposure can capture the huge range of brightness the Sun exhibits. (b) A total eclipse of the Moon seen over California on January 31, 2018. The Moon moves slowly into the Earth’s shadow, looks red when the eclipse is total and red sunlight refracts through the Earth’s atmosphere, and then slowly moves out of the shadow.\n\n[S5] (source: astronomy2e-ch04, page 147)\n(credit a: modification of work by Rick Fienberg, American Astronomical Socity/TravelQuest International; credit b: modification of work by Brian Day.) For the August 2017 eclipse, the United States postal service issued a special commemorative stamp (https://openstax.org/l/302017ecliboo) — the first ever with “thermochromic ink” which changes when you touch it.\n\nLINK TO LEARNING 4.7 • Eclipses of the Sun and Moon 129\n\n[S6] (source: astronomy2e-ch04, page 143)\nHowever, if an eclipse of the Sun occurs when the Moon is somewhat nearer than its average distance, the Moon can completely hide the Sun, producing a total solar eclipse. Another way to say it is that a total eclipse of the Sun occurs at those times when the umbra of the Moon’s shadow reaches the surface of Earth.\n\n[S7] (source: astronomy2e-ch04, page 143)\nThe geometry of a total solar eclipse is illustrated in Figure 4.22. If the Sun and Moon are properly aligned, then the Moon’s darkest shadow intersects the ground at a small point on Earth’s surface. Anyone on Earth within the small area covered by the tip of the Moon’s shadow will, for a few minutes, be unable to see the Sun and will witness a total eclipse. At the same time, observers on a larger area of Earth’s surface who are in the penumbra will see only a part of the Sun eclipsed by the Moon: we call this a partial solar eclipse.",
+    "label_map": {
+      "S1": "astronomy2e-ch04:p142:par800:2",
+      "S2": "astronomy2e-ch04:p142:par800:3",
+      "S3": "astronomy2e-ch04:p142:par800:1",
+      "S4": "astronomy2e-ch04:p147:par800:0",
+      "S5": "astronomy2e-ch04:p147:par800:1",
+      "S6": "astronomy2e-ch04:p143:par800:0",
+      "S7": "astronomy2e-ch04:p143:par800:1"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 4.47,
+    "prompt_tokens": 1604,
+    "completion_tokens": 192,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "From a given place on Earth, why are lunar eclipses observed much more often than solar eclipses?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Lunar eclipses are observed much more often than solar eclipses because a lunar eclipse can be seen from anywhere on the night side of Earth, making it visible to everyone who can see the Moon. In contrast, a solar eclipse is only visible in specific local areas where the Moon's shadow falls on Earth. This difference in visibility leads to lunar eclipses being observed far more frequently from a given location on Earth than solar eclipses [astronomy2e-ch04:p144:par800:2], [astronomy2e-ch04:p145:par800:2].",
+    "citations": [
+      "astronomy2e-ch04:p144:par800:2",
+      "astronomy2e-ch04:p145:par800:2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "rerank",
+        "query": "lunar eclipses more often than solar eclipses",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p144:par800:2",
+            "label": "S1",
+            "rank": 1,
+            "score": 7.7677,
+            "page": 144,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p144:par800:3",
+            "label": "S2",
+            "rank": 1,
+            "score": 0.0,
+            "page": 144,
+            "neighbor_of": "astronomy2e-ch04:p144:par800:2"
+          },
+          {
+            "id": "astronomy2e-ch04:p144:par800:1",
+            "label": "S3",
+            "rank": 1,
+            "score": 0.0,
+            "page": 144,
+            "neighbor_of": "astronomy2e-ch04:p144:par800:2"
+          },
+          {
+            "id": "astronomy2e-ch04:p145:par800:2",
+            "label": "S4",
+            "rank": 2,
+            "score": 5.80134,
+            "page": 145,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p145:par800:3",
+            "label": "S5",
+            "rank": 2,
+            "score": 0.0,
+            "page": 145,
+            "neighbor_of": "astronomy2e-ch04:p145:par800:2"
+          },
+          {
+            "id": "astronomy2e-ch04:p145:par800:1",
+            "label": "S6",
+            "rank": 2,
+            "score": 0.0,
+            "page": 145,
+            "neighbor_of": "astronomy2e-ch04:p145:par800:2"
+          },
+          {
+            "id": "astronomy2e-ch04:p141:par800:3",
+            "label": "S7",
+            "rank": 3,
+            "score": 5.24108,
+            "page": 141,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p141:par800:2",
+            "label": "S8",
+            "rank": 3,
+            "score": 0.0,
+            "page": 141,
+            "neighbor_of": "astronomy2e-ch04:p141:par800:3"
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p144:par800:2",
+          "astronomy2e-ch04:p144:par800:3",
+          "astronomy2e-ch04:p144:par800:1",
+          "astronomy2e-ch04:p145:par800:2",
+          "astronomy2e-ch04:p145:par800:3",
+          "astronomy2e-ch04:p145:par800:1",
+          "astronomy2e-ch04:p141:par800:3",
+          "astronomy2e-ch04:p141:par800:2"
+        ],
+        "retrieval_ms": 398.3,
+        "llm": {
+          "latency_ms": 1272,
+          "attempts": 1,
+          "prompt_tokens": 280,
+          "completion_tokens": 22,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "Lunar eclipses are observed much more often than solar eclipses because a lunar eclipse can be seen from anywhere on the night side of Earth, making it visible to everyone who can see the Moon. In contrast, a solar eclipse is only visible in specific local areas where the Moon's shadow falls on Earth. This difference in visibility leads to lunar eclipses being observed far more frequently from a given location on Earth than solar eclipses [S1], [S4].",
+        "raw_citations": [
+          "S1",
+          "S4"
+        ],
+        "plain_text": false,
+        "valid": true,
+        "citations_appended": [],
+        "llm": {
+          "latency_ms": 3169,
+          "attempts": 1,
+          "prompt_tokens": 1524,
+          "completion_tokens": 116,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch04:p144:par800:2",
+      "astronomy2e-ch04:p144:par800:3",
+      "astronomy2e-ch04:p144:par800:1",
+      "astronomy2e-ch04:p145:par800:2",
+      "astronomy2e-ch04:p145:par800:3",
+      "astronomy2e-ch04:p145:par800:1",
+      "astronomy2e-ch04:p141:par800:3",
+      "astronomy2e-ch04:p141:par800:2"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch04, page 144)\nEclipses of the Moon A lunar eclipse occurs when the Moon enters the shadow of Earth. The geometry of a lunar eclipse is shown in Figure 4.24. Earth’s dark shadow is about 1.4 million kilometers long, so at the Moon’s distance (an average of 384,000 kilometers), it could cover about four full moons. Unlike a solar eclipse, which is visible only in certain local areas on Earth, a lunar eclipse is visible to everyone who can see the Moon. Because a lunar eclipse can be seen (weather permitting) from the entire night side of Earth, lunar eclipses are observed far more frequently from a given place on Earth than are solar eclipses.\n\n2 Eclipse glasses are available in many planetarium and observatory gift stores, and also from the two main U.S. manufacturers:\n\n[S2] (source: astronomy2e-ch04, page 144)\nAmerican Paper Optics and Rainbow Symphony.\n\n126 4 • Earth, Moon, and Sky Access for free at openstax.org\n\n[S3] (source: astronomy2e-ch04, page 144)\nGradually, the partial phases of the eclipse repeat themselves, in reverse order, until the Moon has completely uncovered the Sun. We should make one important safety point here: while the few minutes of the total eclipse are safe to look at, if any part of the Sun is uncovered, you must protect your eyes with safe eclipse glasses2 or by projecting an image of the Sun (instead of looking at it directly). For more, read the How to Observe Solar Eclipses box in this chapter.\n\n[S4] (source: astronomy2e-ch04, page 145)\nAfter totality, the Moon moves out of the shadow and the sequence of events is reversed. The total duration of the eclipse depends on how closely the Moon’s path approaches the axis of the shadow. For an eclipse where the Moon goes through the center of Earth’s shadow, each partial phase consumes at least 1 hour, and totality can last as long as 1 hour and 40 minutes. Eclipses of the Moon are much more “democratic” than solar eclipses. Since the full moon is visible on the entire night side of Earth, the lunar eclipse is visible for all those who live in that hemisphere. (Recall that a total eclipse of the Sun is visible only in a narrow path where the shadow of the umbra falls.) Total eclipses of the Moon occur, on average, about once every two or three years.\n\n[S5] (source: astronomy2e-ch04, page 145)\nA list of future total eclipses of the Moon is in Appendix H. In addition, since the lunar eclipse happens to a full moon, and a full moon is not dangerous to look at, everyone can look at the Moon during all the parts of the eclipse without worrying about safety.\n\nThanks to our understanding of gravity and motion (see Orbits and Gravity), eclipses can now be predicted centuries in advance. We’ve come a long way since humanity stood frightened by the darkening of the Sun or the Moon, fearing the displeasure of the gods. Today, we enjoy the sky show with a healthy appreciation of the majestic forces that keep our solar system running.\n\nUse the Solar and Lunar Eclipse simulation (https://openstax.org/l/30solueclips) to explore the conditions of solar and lunar eclipses yourself.\n\n[S6] (source: astronomy2e-ch04, page 145)\nAbout 20 minutes before the Moon reaches the dark shadow, it dims somewhat as Earth partly blocks the sunlight. As the Moon begins to dip into the shadow, the curved shape of Earth’s shadow upon it soon becomes apparent.\n\nEven when totally eclipsed, the Moon is still faintly visible, usually appearing a dull coppery red. The illumination on the eclipsed Moon is sunlight that has been bent into Earth’s shadow by passing through Earth’s atmosphere.\n\n[S7] (source: astronomy2e-ch04, page 141)\nThis shadow in space becomes apparent whenever another object moves into it. In general, an eclipse occurs whenever any part of either Earth or the Moon enters the shadow of the other. When the Moon’s shadow strikes Earth, people within that shadow see the Sun at least partially covered by the Moon; that is, they witness a solar eclipse. When the Moon passes into the shadow of Earth, people on the night side of Earth see the Moon darken in what is called a lunar eclipse. Let’s look at how these happen in more detail.\n\nDescribe what causes lunar and solar eclipses Differentiate between a total and partial solar eclipse Explain why lunar eclipses are much more common than solar eclipses 4.7 • Eclipses of the Sun and Moon 123\n\n[S8] (source: astronomy2e-ch04, page 141)\nOne of the coincidences of living on Earth at the present time is that the two most prominent astronomical objects, the Sun and the Moon, have nearly the same apparent size in the sky. Although the Sun is about 400 times larger in diameter than the Moon, it is also about 400 times farther away, so both the Sun and the Moon have the same angular size—about 1/2°. As a result, the Moon, as seen from Earth, can appear to cover the Sun, producing one of the most impressive events in nature.\n\nAny solid object in the solar system casts a shadow by blocking the light of the Sun from a region behind it.",
+    "label_map": {
+      "S1": "astronomy2e-ch04:p144:par800:2",
+      "S2": "astronomy2e-ch04:p144:par800:3",
+      "S3": "astronomy2e-ch04:p144:par800:1",
+      "S4": "astronomy2e-ch04:p145:par800:2",
+      "S5": "astronomy2e-ch04:p145:par800:3",
+      "S6": "astronomy2e-ch04:p145:par800:1",
+      "S7": "astronomy2e-ch04:p141:par800:3",
+      "S8": "astronomy2e-ch04:p141:par800:2"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 4.84,
+    "prompt_tokens": 1804,
+    "completion_tokens": 138,
+    "cost_usd": 0.0
+  },
+  {
+    "query_id": "u03",
+    "split": "test",
+    "question": "On what date will the next total solar eclipse be visible from Vietnam?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "rerank",
+        "query": "total solar eclipse Vietnam date",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p147:par800:0",
+            "label": "S1",
+            "rank": 1,
+            "score": 0.95688,
+            "page": 147,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p147:par800:1",
+            "label": "S2",
+            "rank": 1,
+            "score": 0.0,
+            "page": 147,
+            "neighbor_of": "astronomy2e-ch04:p147:par800:0"
+          },
+          {
+            "id": "astronomy2e-ch04:p146:par800:5",
+            "label": "S3",
+            "rank": 2,
+            "score": 0.90551,
+            "page": 146,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p146:par800:4",
+            "label": "S4",
+            "rank": 2,
+            "score": 0.0,
+            "page": 146,
+            "neighbor_of": "astronomy2e-ch04:p146:par800:5"
+          },
+          {
+            "id": "astronomy2e-ch04:p143:par800:1",
+            "label": "S5",
+            "rank": 3,
+            "score": -3.96608,
+            "page": 143,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch04:p143:par800:2",
+            "label": "S6",
+            "rank": 3,
+            "score": 0.0,
+            "page": 143,
+            "neighbor_of": "astronomy2e-ch04:p143:par800:1"
+          },
+          {
+            "id": "astronomy2e-ch04:p143:par800:0",
+            "label": "S7",
+            "rank": 3,
+            "score": 0.0,
+            "page": 143,
+            "neighbor_of": "astronomy2e-ch04:p143:par800:1"
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p147:par800:0",
+          "astronomy2e-ch04:p147:par800:1",
+          "astronomy2e-ch04:p146:par800:5",
+          "astronomy2e-ch04:p146:par800:4",
+          "astronomy2e-ch04:p143:par800:1",
+          "astronomy2e-ch04:p143:par800:2",
+          "astronomy2e-ch04:p143:par800:0"
+        ],
+        "retrieval_ms": 410.7,
+        "llm": {
+          "latency_ms": 943,
+          "attempts": 1,
+          "prompt_tokens": 273,
+          "completion_tokens": 17,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved context does not contain information about the date of the next total solar eclipse visible from Vietnam.",
+        "llm": {
+          "latency_ms": 1324,
+          "attempts": 1,
+          "prompt_tokens": 1276,
+          "completion_tokens": 34,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch04:p147:par800:0",
+      "astronomy2e-ch04:p147:par800:1",
+      "astronomy2e-ch04:p146:par800:5",
+      "astronomy2e-ch04:p146:par800:4",
+      "astronomy2e-ch04:p143:par800:1",
+      "astronomy2e-ch04:p143:par800:2",
+      "astronomy2e-ch04:p143:par800:0"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch04, page 147)\nFigure 4.25 2017 Total Solar and Lunar Eclipse (a) The eclipsed Sun August 21, 2017, showing remarkable detail in the Sun’s outer atmosphere. This is a composite of short, medium, and long exposures, as no single exposure can capture the huge range of brightness the Sun exhibits. (b) A total eclipse of the Moon seen over California on January 31, 2018. The Moon moves slowly into the Earth’s shadow, looks red when the eclipse is total and red sunlight refracts through the Earth’s atmosphere, and then slowly moves out of the shadow.\n\n[S2] (source: astronomy2e-ch04, page 147)\n(credit a: modification of work by Rick Fienberg, American Astronomical Socity/TravelQuest International; credit b: modification of work by Brian Day.) For the August 2017 eclipse, the United States postal service issued a special commemorative stamp (https://openstax.org/l/302017ecliboo) — the first ever with “thermochromic ink” which changes when you touch it.\n\nLINK TO LEARNING 4.7 • Eclipses of the Sun and Moon 129\n\n[S3] (source: astronomy2e-ch04, page 146)\nOn August 21, 2017, a total eclipse of the Sun was visible across a large swath of the continental United States, and was seen by millions of people from around the country and the world (a). On April 8, 2024, another total eclipse of the Sun crossed the continental U.S. in another direction, and again there was great public interest, with many people traveling to the zone of totality.\n\nSEEING FOR YOURSELF 128 4 • Earth, Moon, and Sky Access for free at openstax.org\n\n[S4] (source: astronomy2e-ch04, page 146)\nDuring past eclipses, unnecessary panic has been created by uninformed public officials acting with the best intentions. There were two marvelous total eclipses in Australia in the twentieth century during which townspeople held newspapers over their heads for protection and schoolchildren cowered indoors with their heads under their desks. What a pity that all those people missed what would have been one of the most memorable experiences of their lifetimes.\n\n[S5] (source: astronomy2e-ch04, page 143)\nThe geometry of a total solar eclipse is illustrated in Figure 4.22. If the Sun and Moon are properly aligned, then the Moon’s darkest shadow intersects the ground at a small point on Earth’s surface. Anyone on Earth within the small area covered by the tip of the Moon’s shadow will, for a few minutes, be unable to see the Sun and will witness a total eclipse. At the same time, observers on a larger area of Earth’s surface who are in the penumbra will see only a part of the Sun eclipsed by the Moon: we call this a partial solar eclipse.\n\n[S6] (source: astronomy2e-ch04, page 143)\nBetween Earth’s rotation and the motion of the Moon in its orbit, the tip of the Moon’s shadow sweeps eastward at about 1500 kilometers per hour along a thin band across the surface of Earth. The thin zone across Earth within which a total solar eclipse is visible (weather permitting) is called the eclipse path. Within a region about 3000 kilometers on either side of the eclipse path, a partial solar eclipse is visible. It does not take long for the Moon’s shadow to sweep past a given point on Earth. The duration of totality may be only a brief instant; it can never exceed about 7 minutes.\n\nFigure 4.22 Geometry of a Total Solar Eclipse. Note that our diagram is not to scale. The Moon blocks the Sun during new moon phase as seen from some parts of Earth and casts a shadow on our planet.\n\n[S7] (source: astronomy2e-ch04, page 143)\nHowever, if an eclipse of the Sun occurs when the Moon is somewhat nearer than its average distance, the Moon can completely hide the Sun, producing a total solar eclipse. Another way to say it is that a total eclipse of the Sun occurs at those times when the umbra of the Moon’s shadow reaches the surface of Earth.",
+    "label_map": {
+      "S1": "astronomy2e-ch04:p147:par800:0",
+      "S2": "astronomy2e-ch04:p147:par800:1",
+      "S3": "astronomy2e-ch04:p146:par800:5",
+      "S4": "astronomy2e-ch04:p146:par800:4",
+      "S5": "astronomy2e-ch04:p143:par800:1",
+      "S6": "astronomy2e-ch04:p143:par800:2",
+      "S7": "astronomy2e-ch04:p143:par800:0"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 2.68,
+    "prompt_tokens": 1549,
+    "completion_tokens": 51,
+    "cost_usd": 0.0,
+    "abstain_reason": "The retrieved context does not contain information about the date of the next total solar eclipse visible from Vietnam."
+  },
+  {
+    "query_id": "u04",
+    "split": "test",
+    "question": "What is the mass of the International Space Station in kilograms?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "rerank",
+        "query": "mass of the International Space Station in kilograms",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch03:p85:par800:0",
+            "label": "S1",
+            "rank": 1,
+            "score": -7.867,
+            "page": 85,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p85:par800:1",
+            "label": "S2",
+            "rank": 1,
+            "score": 0.0,
+            "page": 85,
+            "neighbor_of": "astronomy2e-ch03:p85:par800:0"
+          },
+          {
+            "id": "astronomy2e-ch03:p94:par800:4",
+            "label": "S3",
+            "rank": 2,
+            "score": -9.29964,
+            "page": 94,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p94:par800:3",
+            "label": "S4",
+            "rank": 2,
+            "score": 0.0,
+            "page": 94,
+            "neighbor_of": "astronomy2e-ch03:p94:par800:4"
+          },
+          {
+            "id": "astronomy2e-ch03:p94:par800:1",
+            "label": "S5",
+            "rank": 3,
+            "score": -10.1469,
+            "page": 94,
+            "neighbor_of": null
+          },
+          {
+            "id": "astronomy2e-ch03:p94:par800:2",
+            "label": "S6",
+            "rank": 3,
+            "score": 0.0,
+            "page": 94,
+            "neighbor_of": "astronomy2e-ch03:p94:par800:1"
+          },
+          {
+            "id": "astronomy2e-ch03:p94:par800:0",
+            "label": "S7",
+            "rank": 3,
+            "score": 0.0,
+            "page": 94,
+            "neighbor_of": "astronomy2e-ch03:p94:par800:1"
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch03:p85:par800:0",
+          "astronomy2e-ch03:p85:par800:1",
+          "astronomy2e-ch03:p94:par800:4",
+          "astronomy2e-ch03:p94:par800:3",
+          "astronomy2e-ch03:p94:par800:1",
+          "astronomy2e-ch03:p94:par800:2",
+          "astronomy2e-ch03:p94:par800:0"
+        ],
+        "retrieval_ms": 341.2,
+        "llm": {
+          "latency_ms": 1057,
+          "attempts": 1,
+          "prompt_tokens": 271,
+          "completion_tokens": 20,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain",
+        "reason": "The context does not contain information about the mass of the International Space Station.",
+        "llm": {
+          "latency_ms": 1233,
+          "attempts": 1,
+          "prompt_tokens": 1426,
+          "completion_tokens": 29,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch03:p85:par800:0",
+      "astronomy2e-ch03:p85:par800:1",
+      "astronomy2e-ch03:p94:par800:4",
+      "astronomy2e-ch03:p94:par800:3",
+      "astronomy2e-ch03:p94:par800:1",
+      "astronomy2e-ch03:p94:par800:2",
+      "astronomy2e-ch03:p94:par800:0"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch03, page 85)\nFigure 3.1 International Space Station. This space habitat and laboratory orbits Earth once every 90 minutes. (credit: modification of work by NASA) Chapter Outline 3.1 The Laws of Planetary Motion 3.2 Newton’s Great Synthesis 3.3 Newton’s Universal Law of Gravitation 3.4 Orbits in the Solar System 3.5 Motions of Satellites and Spacecraft 3.6 Gravity with More Than Two Bodies Thinking Ahead How would you find a new planet at the outskirts of our solar system that is too dim to be seen with the unaided eye and is so far away that it moves very slowly among the stars? This was the problem confronting astronomers during the nineteenth century as they tried to pin down a full inventory of our solar system.\n\n[S2] (source: astronomy2e-ch03, page 85)\nIf we could look down on the solar system from somewhere out in space, interpreting planetary motions would be much simpler. But the fact is, we must observe the positions of all the other planets from our own moving planet. Scientists of the Renaissance did not know the details of Earth’s motions any better than the motions of the other planets. Their problem, as we saw in Observing the Sky: The Birth of Astronomy, was that they had to deduce the nature of all planetary motion using only their earthbound observations of the other planets’ positions in the sky. To solve this complex problem more fully, better observations and better models of the planetary system were needed.\n\nOrbits and Gravity 3\n\n[S3] (source: astronomy2e-ch03, page 94)\nLINK TO LEARNING 1 Generally we use standard metric (or SI) units in this book. The proper metric unit of density in that system is kg/m3. But to most 76 3 • Orbits and Gravity Access for free at openstax.org\n\n[S4] (source: astronomy2e-ch03, page 94)\nThe units of density that will be used in this book are grams per cubic centimeter (g/cm3).1 If a block of some material has a mass of 300 grams and a volume of 100 cm3, its density is 3 g/cm3. Familiar materials span a considerable range in density, from artificial materials such as plastic insulating foam (less than 0.1 g/cm3) to gold (19.3 g/cm3). Table 3.1 gives the densities of some familiar materials. In the astronomical universe, much more remarkable densities can be found, all the way from a comet’s tail (10-16 g/cm3) to a collapsed “star corpse” called a neutron star (1015 g/cm3).\n\n[S5] (source: astronomy2e-ch03, page 94)\nFigure 3.7 Demonstrating Newton’s Third Law. The U.S. Space Shuttle (here launching Discovery), powered by three fuel engines burning liquid oxygen and liquid hydrogen, with two solid fuel boosters, demonstrates Newton’s third law. (credit: modification of work by NASA) For more about Isaac Newton’s life and work, check out this timeline page (https://openstax.org/l/ 30IsaacNewTime) with snapshots from his career, produced by the British Broadcasting Corporation (BBC).\n\nMass, Volume, and Density Before we go on to discuss Newton’s other work, we want to take a brief look at some terms that will be important to sort out clearly. We begin with mass, which is a measure of the amount of material within an object.\n\n[S6] (source: astronomy2e-ch03, page 94)\nThe volume of an object is the measure of the physical space it occupies. Volume is measured in cubic units, such as cubic centimeters or liters. The volume is the “size” of an object. A penny and an inflated balloon may both have the same mass, but they have very different volumes. The reason is that they also have very different densities, which is a measure of how much mass there is per unit volume. Specifically, density is the mass divided by the volume. Note that in everyday language we often use “heavy” and “light” as indications of density (rather than weight) as, for instance, when we say that iron is heavy or that whipped cream is light.\n\n[S7] (source: astronomy2e-ch03, page 94)\nbaseball. The recoil you feel as you swing your bat shows that the ball exerts a force on it during the impact, just as the bat does on the ball. Similarly, when a rifle you are bracing on your shoulder is discharged, the force pushing the bullet out of the muzzle is equal to the force pushing backward upon the gun and your shoulder.\n\nThis is the principle behind jet engines and rockets: the force that discharges the exhaust gases from the rear of the rocket is accompanied by the force that pushes the rocket forward. The exhaust gases need not push against air or Earth; a rocket actually operates best in a vacuum (Figure 3.7).",
+    "label_map": {
+      "S1": "astronomy2e-ch03:p85:par800:0",
+      "S2": "astronomy2e-ch03:p85:par800:1",
+      "S3": "astronomy2e-ch03:p94:par800:4",
+      "S4": "astronomy2e-ch03:p94:par800:3",
+      "S5": "astronomy2e-ch03:p94:par800:1",
+      "S6": "astronomy2e-ch03:p94:par800:2",
+      "S7": "astronomy2e-ch03:p94:par800:0"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 2.63,
+    "prompt_tokens": 1697,
+    "completion_tokens": 49,
+    "cost_usd": 0.0,
+    "abstain_reason": "The context does not contain information about the mass of the International Space Station."
+  }
+]

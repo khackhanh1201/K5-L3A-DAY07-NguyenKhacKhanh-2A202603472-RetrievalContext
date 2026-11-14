@@ -1,0 +1,28 @@
+{
+  "method": "dense",
+  "split": "dev",
+  "top_k": 3,
+  "budget_chars": 4000,
+  "use_filter": true,
+  "neighbors": 0,
+  "n_answerable": 15,
+  "hit1": "6/15",
+  "hit1_rate": 0.4,
+  "hit3": "9/15",
+  "hit3_rate": 0.6,
+  "mrr10": 0.509,
+  "context_evidence": "9/15",
+  "context_evidence_rate": 0.6,
+  "avg_context_chars": 2030,
+  "median_ms": 45.5,
+  "misses_at3": [
+    "q01",
+    "q04",
+    "q06",
+    "q07",
+    "q13",
+    "q14"
+  ],
+  "service_cost_usd": 0,
+  "load_seconds": 23.5
+}

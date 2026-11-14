@@ -1,0 +1,656 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In the chapter on Earth, Moon, and Sky: by roughly what percentage does Earth's distance from the Sun change during the year?",
+    "method": "dense",
+    "filter": {
+      "chapter": "4"
+    },
+    "top_k": 3,
+    "budget_chars": 4000,
+    "results_top10": [
+      {
+        "id": "astronomy2e-ch04:p121:par800:3",
+        "rank": 1,
+        "score": 0.86971,
+        "source_id": "astronomy2e-ch04",
+        "page": 121,
+        "chapter": "4",
+        "hit": false,
+        "text": "The Seasons and Sunshine Figure 4.5 shows Earth’s annual path around the Sun, with Earth’s axis tilted by 23.5°. Note that our axis continues to point the same direction in the sky throughout the year. As Earth travels around the Sun, in June the Northern Hemisphere “leans into” the Sun and is more directly illuminated. In December, the situation is reversed: the Southern Hemisphere leans into the Sun, and the Northern Hemisphere leans away. In Describe how the tilt of Earth’s axis causes the seasons Explain how seasonal differences on Earth vary with latitude 4.2 • The Seasons 103"
+      },
+      {
+        "id": "astronomy2e-ch04:p121:par800:1",
+        "rank": 2,
+        "score": 0.86472,
+        "source_id": "astronomy2e-ch04",
+        "page": 121,
+        "chapter": "4",
+        "hit": false,
+        "text": "One of the fundamental facts of life at Earth’s midlatitudes, where most of this book’s readers live, is that there are significant variations in the heat we receive from the Sun during the course of the year. We thus divide the year into seasons, each with its different amount of sunlight. The difference between seasons gets more pronounced the farther north or south from the equator we travel, and the seasons in the Southern Hemisphere are the opposite of what we find on the northern half of Earth. With these observed facts in mind, let us ask what causes the seasons."
+      },
+      {
+        "id": "astronomy2e-ch04:p125:par800:3",
+        "rank": 3,
+        "score": 0.86214,
+        "source_id": "astronomy2e-ch04",
+        "page": 125,
+        "chapter": "4",
+        "hit": false,
+        "text": "The Tropic of Cancer is at a latitude equal to Earth’s tilt, so in this case, it would be at 16° N latitude. The Arctic Circle is at a latitude equal to 90° minus Earth’s tilt, or 90° – 16° = 74°. The difference between these two latitudes is 74° – 16° = 58°. Since the tilt of Earth is less, there would be less variation in the tilt of Earth and less variation in the Sun’s paths throughout the year, so there would be milder seasonal changes.\n\nThe Columbia University’s Center for Teaching and Learning’s Motions of the Sun Simulator (https://openstax.org/l/30motionsunsim) allows you to see how the Sun’s changing altitude over the course of the year changes the intensity of lighting experienced on Earth. Select the “Step by day” option before running the animation to illustrate this effect."
+      },
+      {
+        "id": "astronomy2e-ch04:p142:par800:3",
+        "rank": 4,
+        "score": 0.86135,
+        "source_id": "astronomy2e-ch04",
+        "page": 142,
+        "chapter": "4",
+        "hit": false,
+        "text": "Eclipses of the Sun The apparent or angular sizes of both the Sun and Moon vary slightly from time to time as their distances from Earth vary. (Figure 4.21 shows the distance of the observer varying at points 1–4, but the idea is the same.) Much of the time, the Moon looks slightly smaller than the Sun and cannot cover it completely, even if the two are perfectly aligned. In this type of “annular eclipse,” there is a ring of light around the dark sphere of the Moon.\n\n124 4 • Earth, Moon, and Sky Access for free at openstax.org"
+      },
+      {
+        "id": "astronomy2e-ch04:p127:par800:4",
+        "rank": 5,
+        "score": 0.85981,
+        "source_id": "astronomy2e-ch04",
+        "page": 127,
+        "chapter": "4",
+        "hit": false,
+        "text": "A solar day is slightly longer than a sidereal day because (as you can see from Figure 4.10) Earth not only turns but also moves along its path around the Sun in a day. Suppose we start when Earth’s orbital position is at day 1, with both the Sun and some distant star (located in the direction indicated by the long white arrow pointing left), directly in line with the zenith for the observer on Earth. When Earth has completed one rotation with respect to the distant star and is at day 2, the long arrow again points to the same distant star. However, notice that because of the movement of Earth along its orbit from day 1 to 2, the Sun has not yet reached a position above the observer. To complete a solar day, Earth must rotate an additional amount, equal to 1/365 of a full turn."
+      },
+      {
+        "id": "astronomy2e-ch04:p123:par800:1",
+        "rank": 6,
+        "score": 0.85965,
+        "source_id": "astronomy2e-ch04",
+        "page": 123,
+        "chapter": "4",
+        "hit": false,
+        "text": "As we saw in Observing the Sky: The Birth of Astronomy, an equivalent way to look at our path around the Sun each year is to pretend that the Sun moves around Earth (on a circle called the ecliptic). Because Earth’s axis is tilted, the ecliptic is tilted by about 23.5° relative to the celestial equator (review Figure 2.7). As a result, where we see the Sun in the sky changes as the year wears on."
+      },
+      {
+        "id": "astronomy2e-ch04:p121:par800:2",
+        "rank": 7,
+        "score": 0.85899,
+        "source_id": "astronomy2e-ch04",
+        "page": 121,
+        "chapter": "4",
+        "hit": true,
+        "text": "Many people have believed that the seasons were the result of the changing distance between Earth and the Sun. This sounds reasonable at first: it should be colder when Earth is farther from the Sun. But the facts don’t bear out this hypothesis. Although Earth’s orbit around the Sun is an ellipse, its distance from the Sun varies by only about 3%. That’s not enough to cause significant variations in the Sun’s heating. To make matters worse for people in North America who hold this hypothesis, Earth is actually closest to the Sun in January, when the Northern Hemisphere is in the middle of winter. And if distance were the governing factor, why would the two hemispheres have opposite seasons? As we shall show, the seasons are actually caused by the 23.5° tilt of Earth’s axis."
+      },
+      {
+        "id": "astronomy2e-ch04:p134:par800:2",
+        "rank": 8,
+        "score": 0.85849,
+        "source_id": "astronomy2e-ch04",
+        "page": 134,
+        "chapter": "4",
+        "hit": false,
+        "text": "But the Moon does not remain in this phase long because it moves eastward each day in its monthly path around us. Since it takes about 30 days to orbit Earth and there are 360° in a circle, the Moon will move about 12° in the sky each day (or about 24 times its own diameter). A day or two after the new phase, the thin crescent first appears, as we begin to see a small part of the Moon’s illuminated hemisphere. It has moved into a position where it now reflects a little sunlight toward us along one side. The bright crescent increases in size on successive days as the Moon moves farther and farther around the sky away from the direction of the Sun (position B). Because the Moon is moving eastward away from the Sun, it rises later and later each day (like a student during summer vacation)."
+      },
+      {
+        "id": "astronomy2e-ch04:p131:par800:0",
+        "rank": 9,
+        "score": 0.85728,
+        "source_id": "astronomy2e-ch04",
+        "page": 131,
+        "chapter": "4",
+        "hit": false,
+        "text": "based on the cycle of the Moon’s phases (see later in this chapter) about Earth; and the year, based on the period of revolution of Earth about the Sun. Difficulties have resulted from the fact that these three periods are not commensurable; that’s a fancy way of saying that one does not divide evenly into any of the others."
+      },
+      {
+        "id": "astronomy2e-ch04:p143:par800:2",
+        "rank": 10,
+        "score": 0.85586,
+        "source_id": "astronomy2e-ch04",
+        "page": 143,
+        "chapter": "4",
+        "hit": false,
+        "text": "Between Earth’s rotation and the motion of the Moon in its orbit, the tip of the Moon’s shadow sweeps eastward at about 1500 kilometers per hour along a thin band across the surface of Earth. The thin zone across Earth within which a total solar eclipse is visible (weather permitting) is called the eclipse path. Within a region about 3000 kilometers on either side of the eclipse path, a partial solar eclipse is visible. It does not take long for the Moon’s shadow to sweep past a given point on Earth. The duration of totality may be only a brief instant; it can never exceed about 7 minutes.\n\nFigure 4.22 Geometry of a Total Solar Eclipse. Note that our diagram is not to scale. The Moon blocks the Sun during new moon phase as seen from some parts of Earth and casts a shadow on our planet."
+      }
+    ],
+    "context_ids": [
+      "astronomy2e-ch04:p121:par800:3",
+      "astronomy2e-ch04:p121:par800:1",
+      "astronomy2e-ch04:p125:par800:3"
+    ],
+    "context_chars": 2182,
+    "elapsed_ms": 245.8,
+    "hit1": false,
+    "hit3": false,
+    "mrr10": 0.14285714285714285,
+    "context_hit": false,
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch04",
+        "page": 121,
+        "evidence": "its distance from the Sun varies by only about 3%"
+      }
+    ]
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In the chapter on Orbits and Gravity: what are the closest and farthest points in the orbit of an object circling Earth called?",
+    "method": "dense",
+    "filter": {
+      "chapter": "3"
+    },
+    "top_k": 3,
+    "budget_chars": 4000,
+    "results_top10": [
+      {
+        "id": "astronomy2e-ch03:p101:par800:1",
+        "rank": 1,
+        "score": 0.87796,
+        "source_id": "astronomy2e-ch03",
+        "page": 101,
+        "chapter": "3",
+        "hit": true,
+        "text": "Two points in any orbit in our solar system have been given special names. The place where the planet is closest to the Sun (helios in Greek) and moves the fastest is called the perihelion of its orbit, and the place where it is farthest away and moves the most slowly is the aphelion. For the Moon or a satellite orbiting Earth (gee in Greek), the corresponding terms are perigee and apogee. (In this book, we use the word moon for a natural object that goes around a planet and the word satellite to mean a human-made object that revolves around a planet.) Orbits of the Planets Today, Newton’s work enables us to calculate and predict the orbits of the planets with marvelous precision."
+      },
+      {
+        "id": "astronomy2e-ch03:p85:par800:0",
+        "rank": 2,
+        "score": 0.85034,
+        "source_id": "astronomy2e-ch03",
+        "page": 85,
+        "chapter": "3",
+        "hit": false,
+        "text": "Figure 3.1 International Space Station. This space habitat and laboratory orbits Earth once every 90 minutes. (credit: modification of work by NASA) Chapter Outline 3.1 The Laws of Planetary Motion 3.2 Newton’s Great Synthesis 3.3 Newton’s Universal Law of Gravitation 3.4 Orbits in the Solar System 3.5 Motions of Satellites and Spacecraft 3.6 Gravity with More Than Two Bodies Thinking Ahead How would you find a new planet at the outskirts of our solar system that is too dim to be seen with the unaided eye and is so far away that it moves very slowly among the stars? This was the problem confronting astronomers during the nineteenth century as they tried to pin down a full inventory of our solar system."
+      },
+      {
+        "id": "astronomy2e-ch03:p101:par800:4",
+        "rank": 3,
+        "score": 0.84987,
+        "source_id": "astronomy2e-ch03",
+        "page": 101,
+        "chapter": "3",
+        "hit": false,
+        "text": "The planetary orbits are also confined close to a common plane, which is near the plane of Earth’s orbit (called the ecliptic). The strange orbit of the dwarf planet Pluto is inclined about 17° to the ecliptic, and that of the dwarf planet Eris (orbiting even farther away from the Sun than Pluto) by 44°, but all the major planets lie within 10° of the common plane of the solar system.\n\nJavaLab’s solar system simulator (https://openstax.org/l/30solarsim) allows you to explore the size and speed of the planets’ orbits, and view the orbits from different perspectives."
+      },
+      {
+        "id": "astronomy2e-ch03:p87:par800:3",
+        "rank": 4,
+        "score": 0.84866,
+        "source_id": "astronomy2e-ch03",
+        "page": 87,
+        "chapter": "3",
+        "hit": false,
+        "text": "The First Two Laws of Planetary Motion The path of an object through space is called its orbit. Kepler initially assumed that the orbits of planets were circles, but doing so did not allow him to find orbits that were consistent with Brahe’s observations. Working with the data for Mars, he eventually discovered that the orbit of that planet had the shape of a somewhat flattened circle, or ellipse. Next to the circle, the ellipse is the simplest kind of closed curve, belonging to a family of curves known as conic sections (Figure 3.3).\n\nFigure 3.3 Conic Sections. The circle, ellipse, parabola, and hyperbola are all formed by the intersection of a plane with a cone. This is why such curves are called conic sections."
+      },
+      {
+        "id": "astronomy2e-ch03:p89:par800:0",
+        "rank": 5,
+        "score": 0.8457,
+        "source_id": "astronomy2e-ch03",
+        "page": 89,
+        "chapter": "3",
+        "hit": false,
+        "text": "so fast. As Mars travels in its elliptical orbit around the Sun, the elastic line sweeps out areas of the ellipse as it moves (the colored regions in our figure). Kepler found that in equal intervals of time (t), the areas swept out in space by this imaginary line are always equal; that is, the area of the region B from 1 to 2 is the same as that of region A from 3 to 4.\n\nIf a planet moves in a circular orbit, the elastic line is always stretched the same amount and the planet moves at a constant speed around its orbit. But, as Kepler discovered, in most orbits that speed of a planet orbiting its star (or moon orbiting its planet) tends to vary because the orbit is elliptical."
+      },
+      {
+        "id": "astronomy2e-ch03:p90:par800:3",
+        "rank": 6,
+        "score": 0.84117,
+        "source_id": "astronomy2e-ch03",
+        "page": 90,
+        "chapter": "3",
+        "hit": false,
+        "text": "• Kepler’s second law: The straight line joining a planet and the Sun sweeps out equal areas in space in equal intervals of time.\n\n• Kepler’s third law: The square of a planet’s orbital period is directly proportional to the cube of the semimajor axis of its orbit.\n\nKepler’s three laws provide a precise geometric description of planetary motion within the framework of the Copernican system. With these tools, it was possible to calculate planetary positions with greatly improved 72 3 • Orbits and Gravity Access for free at openstax.org"
+      },
+      {
+        "id": "astronomy2e-ch03:p101:par800:3",
+        "rank": 7,
+        "score": 0.84084,
+        "source_id": "astronomy2e-ch03",
+        "page": 101,
+        "chapter": "3",
+        "hit": false,
+        "text": "All the planets have orbits of rather low eccentricity. The most eccentric orbit is that of Mercury (0.21); the rest have eccentricities smaller than 0.1. It is fortunate that among the rest, Mars has an eccentricity greater than that of many of the other planets. Otherwise the pre-telescopic observations of Brahe would not have been sufficient for Kepler to deduce that its orbit had the shape of an ellipse rather than a circle."
+      },
+      {
+        "id": "astronomy2e-ch03:p89:par800:3",
+        "rank": 8,
+        "score": 0.84032,
+        "source_id": "astronomy2e-ch03",
+        "page": 89,
+        "chapter": "3",
+        "hit": false,
+        "text": "In 1619, Kepler discovered a basic relationship to relate the planets’ orbits to their relative distances from the Sun. We define a planet’s orbital period, (P), as the time it takes a planet to travel once around the Sun. Also, recall that a planet’s semimajor axis, a, is equal to its average distance from the Sun. The relationship, now known as Kepler’s third law, says that a planet’s orbital period squared is proportional to the semimajor axis of its orbit cubed, or When P (the orbital period) is measured in years, and a is expressed in a quantity known as an astronomical unit (AU), the two sides of the formula are not only proportional but equal. One AU is the average distance between Earth and the Sun and is approximately equal to kilometers."
+      },
+      {
+        "id": "astronomy2e-ch03:p102:par800:0",
+        "rank": 9,
+        "score": 0.84026,
+        "source_id": "astronomy2e-ch03",
+        "page": 102,
+        "chapter": "3",
+        "hit": false,
+        "text": "them lie between 2.2 and 3.3 AU, in the region known as the asteroid belt (see Comets and Asteroids: Debris of the Solar System). As you can see in Table 3.2, the asteroid belt (represented by its largest member, Ceres) is in the middle of a gap between the orbits of Mars and Jupiter. It is because these two planets are so far apart that stable orbits of small bodies can exist in the region between them.\n\nFigure 3.10 Solar System Orbits. We see the orbits of typical comets and asteroids compared with those of the planets Mercury, Venus, Earth, Mars, and Jupiter (black circles). Shown in red are three comets: Halley, Kopff, and Encke. In blue are the four largest asteroids: Ceres, Pallas, Vesta, and Hygeia."
+      },
+      {
+        "id": "astronomy2e-ch03:p85:par800:1",
+        "rank": 10,
+        "score": 0.83723,
+        "source_id": "astronomy2e-ch03",
+        "page": 85,
+        "chapter": "3",
+        "hit": false,
+        "text": "If we could look down on the solar system from somewhere out in space, interpreting planetary motions would be much simpler. But the fact is, we must observe the positions of all the other planets from our own moving planet. Scientists of the Renaissance did not know the details of Earth’s motions any better than the motions of the other planets. Their problem, as we saw in Observing the Sky: The Birth of Astronomy, was that they had to deduce the nature of all planetary motion using only their earthbound observations of the other planets’ positions in the sky. To solve this complex problem more fully, better observations and better models of the planetary system were needed.\n\nOrbits and Gravity 3"
+      }
+    ],
+    "context_ids": [
+      "astronomy2e-ch03:p101:par800:1",
+      "astronomy2e-ch03:p85:par800:0",
+      "astronomy2e-ch03:p101:par800:4"
+    ],
+    "context_chars": 2189,
+    "elapsed_ms": 21.5,
+    "hit1": true,
+    "hit3": true,
+    "mrr10": 1.0,
+    "context_hit": true,
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch03",
+        "page": 101,
+        "evidence": "For the Moon or a satellite orbiting Earth (gee in Greek), the corresponding terms are perigee and apogee."
+      }
+    ]
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Why do comets spend most of their time far away from the Sun?",
+    "method": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 4000,
+    "results_top10": [
+      {
+        "id": "astronomy2e-ch03:p93:par800:2",
+        "rank": 1,
+        "score": 0.86106,
+        "source_id": "astronomy2e-ch03",
+        "page": 93,
+        "chapter": "3",
+        "hit": false,
+        "text": "It’s not so easy to see this rule in action in the everyday world because of the many forces acting on a body at any one time. One important force is friction, which generally slows things down. If you roll a ball along the sidewalk, it eventually comes to a stop because the sidewalk exerts a rubbing force on the ball. But in the space between the stars, where there is so little matter that friction is insignificant, objects can in fact continue to move (to coast) indefinitely."
+      },
+      {
+        "id": "astronomy2e-ch03:p89:par800:0",
+        "rank": 2,
+        "score": 0.85812,
+        "source_id": "astronomy2e-ch03",
+        "page": 89,
+        "chapter": "3",
+        "hit": false,
+        "text": "so fast. As Mars travels in its elliptical orbit around the Sun, the elastic line sweeps out areas of the ellipse as it moves (the colored regions in our figure). Kepler found that in equal intervals of time (t), the areas swept out in space by this imaginary line are always equal; that is, the area of the region B from 1 to 2 is the same as that of region A from 3 to 4.\n\nIf a planet moves in a circular orbit, the elastic line is always stretched the same amount and the planet moves at a constant speed around its orbit. But, as Kepler discovered, in most orbits that speed of a planet orbiting its star (or moon orbiting its planet) tends to vary because the orbit is elliptical."
+      },
+      {
+        "id": "astronomy2e-ch03:p98:par800:1",
+        "rank": 3,
+        "score": 0.85725,
+        "source_id": "astronomy2e-ch03",
+        "page": 98,
+        "chapter": "3",
+        "hit": false,
+        "text": "Newton’s law also implies that gravity never becomes zero. It quickly gets weaker with distance, but it continues to act to some degree no matter how far away you get. The pull of the Sun is stronger at Mercury than at Pluto, but it can be felt far beyond Pluto, where astronomers have good evidence that it continuously makes enormous numbers of smaller icy bodies move around huge orbits. And the Sun’s gravitational pull joins with the pull of billions of others stars to create the gravitational pull of our Milky Way Galaxy. That force, in turn, can make other smaller galaxies orbit around the Milky Way, and so on."
+      },
+      {
+        "id": "astronomy2e-ch04:p124:par800:1",
+        "rank": 4,
+        "score": 0.85675,
+        "source_id": "astronomy2e-ch04",
+        "page": 124,
+        "chapter": "4",
+        "hit": false,
+        "text": "Many early cultures scheduled special events around the summer solstice to celebrate the longest days and thank their gods for making the weather warm. This required people to keep track of the lengths of the days and the northward trek of the Sun in order to know the right day for the “party.” (You can do the same thing by watching for several weeks, from the same observation point, where the Sun rises or sets relative to a fixed landmark. In spring, the Sun will rise farther and farther north of east, and set farther and farther north of west, reaching the maximum around the summer solstice.) Now look at the South Pole in Figure 4.8. On June 21, all places within 23° of the South Pole—that is, south of what we call the Antarctic Circle—do not see the Sun at all for 24 hours."
+      },
+      {
+        "id": "astronomy2e-ch03:p103:par800:0",
+        "rank": 5,
+        "score": 0.85471,
+        "source_id": "astronomy2e-ch03",
+        "page": 103,
+        "chapter": "3",
+        "hit": true,
+        "text": "Planet Semimajor Axis (AU) Period (y) Eccentricity Saturn 9.54 29.46 0.06 Uranus 19.19 84.01 0.05 Neptune 30.06 164.82 0.01 Table 3.2 Comets generally have orbits of larger size and greater eccentricity than those of the asteroids. Typically, the eccentricity of their orbits is 0.8 or higher. According to Kepler’s second law, therefore, they spend most of their time far from the Sun, moving very slowly. As they approach perihelion, the comets speed up and whip through the inner parts of their orbits more rapidly.\n\n3.5 Motions of Satellites and Spacecraft Learning Objectives By the end of this section, you will be able to:"
+      },
+      {
+        "id": "astronomy2e-ch04:p127:par800:4",
+        "rank": 6,
+        "score": 0.84993,
+        "source_id": "astronomy2e-ch04",
+        "page": 127,
+        "chapter": "4",
+        "hit": false,
+        "text": "A solar day is slightly longer than a sidereal day because (as you can see from Figure 4.10) Earth not only turns but also moves along its path around the Sun in a day. Suppose we start when Earth’s orbital position is at day 1, with both the Sun and some distant star (located in the direction indicated by the long white arrow pointing left), directly in line with the zenith for the observer on Earth. When Earth has completed one rotation with respect to the distant star and is at day 2, the long arrow again points to the same distant star. However, notice that because of the movement of Earth along its orbit from day 1 to 2, the Sun has not yet reached a position above the observer. To complete a solar day, Earth must rotate an additional amount, equal to 1/365 of a full turn."
+      },
+      {
+        "id": "astronomy2e-ch03:p89:par800:1",
+        "rank": 7,
+        "score": 0.84943,
+        "source_id": "astronomy2e-ch03",
+        "page": 89,
+        "chapter": "3",
+        "hit": false,
+        "text": "Figure 3.5 Kepler’s Second Law: The Law of Equal Areas. The orbital speed of a planet traveling around the Sun (the circular object inside the ellipse) varies in such a way that in equal intervals of time (t), a line between the Sun and a planet sweeps out equal areas (A and B). Note that the eccentricities of the planets’ orbits in our solar system are substantially less than shown here.\n\nThe Kepler's Second Law demonstrator (https://openstax.org/l/30kepsecond) from CCNY's ScienceSims project shows how an orbiting planet sweeps out the same area in the same time."
+      },
+      {
+        "id": "astronomy2e-ch03:p98:par800:2",
+        "rank": 8,
+        "score": 0.84871,
+        "source_id": "astronomy2e-ch03",
+        "page": 98,
+        "chapter": "3",
+        "hit": false,
+        "text": "Why is it then, you may ask, that the astronauts aboard the Space Shuttle appear to have no gravitational forces acting on them when we see images on television of the astronauts and objects floating in the spacecraft? After all, the astronauts in the shuttle are only a few hundred kilometers above the surface of Earth, which is not a significant distance compared to the size of Earth, so gravity is certainly not a great deal weaker that much farther away."
+      },
+      {
+        "id": "astronomy2e-ch04:p127:par800:1",
+        "rank": 9,
+        "score": 0.84855,
+        "source_id": "astronomy2e-ch04",
+        "page": 127,
+        "chapter": "4",
+        "hit": false,
+        "text": "These atmospheric effects require small corrections in many of our statements about the seasons. At the equinoxes, for example, the Sun appears to be above the horizon for a few minutes longer than 12 hours, and below the horizon for fewer than 12 hours. These effects are most dramatic at Earth’s poles, where the Sun actually can be seen more than a week before it reaches the celestial equator.\n\nYou probably know that the summer solstice (June 21) is not the warmest day of the year, even if it is the longest. The hottest months in the Northern Hemisphere are July and August. This is because our weather involves the air and water covering Earth’s surface, and these large reservoirs do not heat up instantaneously."
+      },
+      {
+        "id": "astronomy2e-ch03:p93:par800:7",
+        "rank": 10,
+        "score": 0.84809,
+        "source_id": "astronomy2e-ch03",
+        "page": 93,
+        "chapter": "3",
+        "hit": false,
+        "text": "Suppose that a daredevil astronomy student—and avid skateboarder—wants to jump from his second-story dorm window onto his board below (we don’t recommend trying this!). The force pulling him down after jumping (as we will see in the next section) is the force of gravity between him and Earth. Both he and Earth must experience the same total change of momentum because of the influence of these mutual forces. So, both the student and Earth are accelerated by each other’s pull. However, the student does much more of the moving. Because Earth has enormously greater mass, it can experience the same change of momentum by accelerating only a very small amount. Things fall toward Earth all the time, but the acceleration of our planet as a result is far too small to be measured."
+      }
+    ],
+    "context_ids": [
+      "astronomy2e-ch03:p93:par800:2",
+      "astronomy2e-ch03:p89:par800:0",
+      "astronomy2e-ch03:p98:par800:1"
+    ],
+    "context_chars": 2002,
+    "elapsed_ms": 21.5,
+    "hit1": false,
+    "hit3": false,
+    "mrr10": 0.2,
+    "context_hit": false,
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch03",
+        "page": 103,
+        "evidence": "According to Kepler’s second law, therefore, they spend most of their time far from the Sun, moving very slowly."
+      }
+    ]
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "type": "condition_exception",
+    "question": "Why don't we see an eclipse of the Sun and of the Moon every month?",
+    "method": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 4000,
+    "results_top10": [
+      {
+        "id": "astronomy2e-ch04:p142:par800:2",
+        "rank": 1,
+        "score": 0.90857,
+        "source_id": "astronomy2e-ch04",
+        "page": 142,
+        "chapter": "4",
+        "hit": true,
+        "text": "If the path of the Moon in the sky were identical to the path of the Sun (the ecliptic), we might expect to see an eclipse of the Sun and the Moon each month—whenever the Moon got in front of the Sun or into the shadow of Earth. However, as we mentioned, the Moon’s orbit is tilted relative to the plane of Earth’s orbit about the Sun by about 5° (imagine two hula hoops with a common center, but tilted a bit). As a result, during most months, the Moon is sufficiently above or below the ecliptic plane to avoid an eclipse. But when the two paths cross (twice a year), it is then “eclipse season” and eclipses are possible."
+      },
+      {
+        "id": "astronomy2e-ch04:p135:par800:4",
+        "rank": 2,
+        "score": 0.8894,
+        "source_id": "astronomy2e-ch04",
+        "page": 135,
+        "chapter": "4",
+        "hit": false,
+        "text": "The Moon is actually 30 Earth-diameters away from us; Science and the Universe: A Brief Tour contains a diagram that shows the two objects to scale. And, since the Moon’s orbit is tilted relative to the path of the Sun in the sky, Earth’s shadow misses the Moon most months. That’s why we regularly get treated to a full moon.\n\nThe times when Earth’s shadow does fall on the Moon are called lunar eclipses and are discussed in Eclipses of the Sun and Moon."
+      },
+      {
+        "id": "astronomy2e-ch04:p145:par800:2",
+        "rank": 3,
+        "score": 0.88707,
+        "source_id": "astronomy2e-ch04",
+        "page": 145,
+        "chapter": "4",
+        "hit": false,
+        "text": "After totality, the Moon moves out of the shadow and the sequence of events is reversed. The total duration of the eclipse depends on how closely the Moon’s path approaches the axis of the shadow. For an eclipse where the Moon goes through the center of Earth’s shadow, each partial phase consumes at least 1 hour, and totality can last as long as 1 hour and 40 minutes. Eclipses of the Moon are much more “democratic” than solar eclipses. Since the full moon is visible on the entire night side of Earth, the lunar eclipse is visible for all those who live in that hemisphere. (Recall that a total eclipse of the Sun is visible only in a narrow path where the shadow of the umbra falls.) Total eclipses of the Moon occur, on average, about once every two or three years."
+      },
+      {
+        "id": "astronomy2e-ch04:p143:par800:1",
+        "rank": 4,
+        "score": 0.88451,
+        "source_id": "astronomy2e-ch04",
+        "page": 143,
+        "chapter": "4",
+        "hit": false,
+        "text": "The geometry of a total solar eclipse is illustrated in Figure 4.22. If the Sun and Moon are properly aligned, then the Moon’s darkest shadow intersects the ground at a small point on Earth’s surface. Anyone on Earth within the small area covered by the tip of the Moon’s shadow will, for a few minutes, be unable to see the Sun and will witness a total eclipse. At the same time, observers on a larger area of Earth’s surface who are in the penumbra will see only a part of the Sun eclipsed by the Moon: we call this a partial solar eclipse."
+      },
+      {
+        "id": "astronomy2e-ch04:p133:par800:4",
+        "rank": 5,
+        "score": 0.88409,
+        "source_id": "astronomy2e-ch04",
+        "page": 133,
+        "chapter": "4",
+        "hit": false,
+        "text": "Here is a simple experiment to show you what we mean: stand about 6 feet in front of a bright electric light in a completely dark room (or outdoors at night) and hold in your hand a small round object such as a tennis ball or an orange. Your head can then represent Earth, the light represents the Sun, and the ball the Moon. Move the ball around your head (making sure you don’t cause an eclipse by blocking the light with your head). You will see phases just like those of the Moon on the ball."
+      },
+      {
+        "id": "astronomy2e-ch04:p145:par800:3",
+        "rank": 6,
+        "score": 0.88366,
+        "source_id": "astronomy2e-ch04",
+        "page": 145,
+        "chapter": "4",
+        "hit": false,
+        "text": "A list of future total eclipses of the Moon is in Appendix H. In addition, since the lunar eclipse happens to a full moon, and a full moon is not dangerous to look at, everyone can look at the Moon during all the parts of the eclipse without worrying about safety.\n\nThanks to our understanding of gravity and motion (see Orbits and Gravity), eclipses can now be predicted centuries in advance. We’ve come a long way since humanity stood frightened by the darkening of the Sun or the Moon, fearing the displeasure of the gods. Today, we enjoy the sky show with a healthy appreciation of the majestic forces that keep our solar system running.\n\nUse the Solar and Lunar Eclipse simulation (https://openstax.org/l/30solueclips) to explore the conditions of solar and lunar eclipses yourself."
+      },
+      {
+        "id": "astronomy2e-ch04:p144:par800:1",
+        "rank": 7,
+        "score": 0.88159,
+        "source_id": "astronomy2e-ch04",
+        "page": 144,
+        "chapter": "4",
+        "hit": false,
+        "text": "Gradually, the partial phases of the eclipse repeat themselves, in reverse order, until the Moon has completely uncovered the Sun. We should make one important safety point here: while the few minutes of the total eclipse are safe to look at, if any part of the Sun is uncovered, you must protect your eyes with safe eclipse glasses2 or by projecting an image of the Sun (instead of looking at it directly). For more, read the How to Observe Solar Eclipses box in this chapter."
+      },
+      {
+        "id": "astronomy2e-ch04:p135:par800:3",
+        "rank": 8,
+        "score": 0.87752,
+        "source_id": "astronomy2e-ch04",
+        "page": 135,
+        "chapter": "4",
+        "hit": false,
+        "text": "Note that there is one thing quite misleading about Figure 4.14. If you look at the Moon in position E, although it is full in theory, it appears as if its illumination would in fact be blocked by a big fat Earth, and hence we would not see anything on the Moon except Earth’s shadow. In reality, the Moon is nowhere near as close to Earth (nor is its path so identical with the Sun’s in the sky) as this diagram (and the diagrams in most textbooks) might lead you to believe."
+      },
+      {
+        "id": "astronomy2e-ch04:p143:par800:0",
+        "rank": 9,
+        "score": 0.87629,
+        "source_id": "astronomy2e-ch04",
+        "page": 143,
+        "chapter": "4",
+        "hit": false,
+        "text": "However, if an eclipse of the Sun occurs when the Moon is somewhat nearer than its average distance, the Moon can completely hide the Sun, producing a total solar eclipse. Another way to say it is that a total eclipse of the Sun occurs at those times when the umbra of the Moon’s shadow reaches the surface of Earth."
+      },
+      {
+        "id": "astronomy2e-ch04:p143:par800:3",
+        "rank": 10,
+        "score": 0.87512,
+        "source_id": "astronomy2e-ch04",
+        "page": 143,
+        "chapter": "4",
+        "hit": false,
+        "text": "Because a total eclipse of the Sun is so spectacular, it is well worth trying to see one if you can. There are some people whose hobby is “eclipse chasing” and who brag about how many they have seen in their lifetimes.\n\nBecause much of Earth’s surface is water, eclipse chasing can involve lengthy boat trips (and often requires air travel as well). As a result, eclipse chasing is rarely within the budget of a typical college student. Nevertheless, a list of future eclipses is given for your reference in Appendix H, just in case you strike it rich early."
+      }
+    ],
+    "context_ids": [
+      "astronomy2e-ch04:p142:par800:2",
+      "astronomy2e-ch04:p135:par800:4",
+      "astronomy2e-ch04:p145:par800:2"
+    ],
+    "context_chars": 2071,
+    "elapsed_ms": 23.2,
+    "hit1": true,
+    "hit3": true,
+    "mrr10": 1.0,
+    "context_hit": true,
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch04",
+        "page": 142,
+        "evidence": "the Moon’s orbit is tilted relative to the plane of Earth’s orbit about the Sun by about 5°"
+      }
+    ]
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "From a given place on Earth, why are lunar eclipses observed much more often than solar eclipses?",
+    "method": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 4000,
+    "results_top10": [
+      {
+        "id": "astronomy2e-ch04:p142:par800:2",
+        "rank": 1,
+        "score": 0.88344,
+        "source_id": "astronomy2e-ch04",
+        "page": 142,
+        "chapter": "4",
+        "hit": false,
+        "text": "If the path of the Moon in the sky were identical to the path of the Sun (the ecliptic), we might expect to see an eclipse of the Sun and the Moon each month—whenever the Moon got in front of the Sun or into the shadow of Earth. However, as we mentioned, the Moon’s orbit is tilted relative to the plane of Earth’s orbit about the Sun by about 5° (imagine two hula hoops with a common center, but tilted a bit). As a result, during most months, the Moon is sufficiently above or below the ecliptic plane to avoid an eclipse. But when the two paths cross (twice a year), it is then “eclipse season” and eclipses are possible."
+      },
+      {
+        "id": "astronomy2e-ch04:p141:par800:3",
+        "rank": 2,
+        "score": 0.88248,
+        "source_id": "astronomy2e-ch04",
+        "page": 141,
+        "chapter": "4",
+        "hit": false,
+        "text": "This shadow in space becomes apparent whenever another object moves into it. In general, an eclipse occurs whenever any part of either Earth or the Moon enters the shadow of the other. When the Moon’s shadow strikes Earth, people within that shadow see the Sun at least partially covered by the Moon; that is, they witness a solar eclipse. When the Moon passes into the shadow of Earth, people on the night side of Earth see the Moon darken in what is called a lunar eclipse. Let’s look at how these happen in more detail.\n\nDescribe what causes lunar and solar eclipses Differentiate between a total and partial solar eclipse Explain why lunar eclipses are much more common than solar eclipses 4.7 • Eclipses of the Sun and Moon 123"
+      },
+      {
+        "id": "astronomy2e-ch04:p145:par800:2",
+        "rank": 3,
+        "score": 0.87874,
+        "source_id": "astronomy2e-ch04",
+        "page": 145,
+        "chapter": "4",
+        "hit": false,
+        "text": "After totality, the Moon moves out of the shadow and the sequence of events is reversed. The total duration of the eclipse depends on how closely the Moon’s path approaches the axis of the shadow. For an eclipse where the Moon goes through the center of Earth’s shadow, each partial phase consumes at least 1 hour, and totality can last as long as 1 hour and 40 minutes. Eclipses of the Moon are much more “democratic” than solar eclipses. Since the full moon is visible on the entire night side of Earth, the lunar eclipse is visible for all those who live in that hemisphere. (Recall that a total eclipse of the Sun is visible only in a narrow path where the shadow of the umbra falls.) Total eclipses of the Moon occur, on average, about once every two or three years."
+      },
+      {
+        "id": "astronomy2e-ch04:p143:par800:3",
+        "rank": 4,
+        "score": 0.87787,
+        "source_id": "astronomy2e-ch04",
+        "page": 143,
+        "chapter": "4",
+        "hit": false,
+        "text": "Because a total eclipse of the Sun is so spectacular, it is well worth trying to see one if you can. There are some people whose hobby is “eclipse chasing” and who brag about how many they have seen in their lifetimes.\n\nBecause much of Earth’s surface is water, eclipse chasing can involve lengthy boat trips (and often requires air travel as well). As a result, eclipse chasing is rarely within the budget of a typical college student. Nevertheless, a list of future eclipses is given for your reference in Appendix H, just in case you strike it rich early."
+      },
+      {
+        "id": "astronomy2e-ch04:p143:par800:1",
+        "rank": 5,
+        "score": 0.87383,
+        "source_id": "astronomy2e-ch04",
+        "page": 143,
+        "chapter": "4",
+        "hit": false,
+        "text": "The geometry of a total solar eclipse is illustrated in Figure 4.22. If the Sun and Moon are properly aligned, then the Moon’s darkest shadow intersects the ground at a small point on Earth’s surface. Anyone on Earth within the small area covered by the tip of the Moon’s shadow will, for a few minutes, be unable to see the Sun and will witness a total eclipse. At the same time, observers on a larger area of Earth’s surface who are in the penumbra will see only a part of the Sun eclipsed by the Moon: we call this a partial solar eclipse."
+      },
+      {
+        "id": "astronomy2e-ch04:p145:par800:0",
+        "rank": 6,
+        "score": 0.87266,
+        "source_id": "astronomy2e-ch04",
+        "page": 145,
+        "chapter": "4",
+        "hit": false,
+        "text": "Figure 4.24 Geometry of a Lunar Eclipse. The Moon is shown moving through the different parts of Earth’s shadow during a total lunar eclipse. Note that the distance the Moon moves in its orbit during the eclipse has been exaggerated here for clarity.\n\nAn eclipse of the Moon is total only if the Moon’s path carries it though Earth’s umbra. If the Moon does not enter the umbra completely, we have a partial eclipse of the Moon. But because Earth is larger than the Moon, its umbra is larger, so that lunar eclipses last longer than solar eclipses, as we will discuss below.\n\nA lunar eclipse can take place only when the Sun, Earth, and Moon are in a line. The Moon is opposite the Sun, which means the Moon will be in full phase before the eclipse, making the darkening even more dramatic."
+      },
+      {
+        "id": "astronomy2e-ch04:p144:par800:2",
+        "rank": 7,
+        "score": 0.87202,
+        "source_id": "astronomy2e-ch04",
+        "page": 144,
+        "chapter": "4",
+        "hit": true,
+        "text": "Eclipses of the Moon A lunar eclipse occurs when the Moon enters the shadow of Earth. The geometry of a lunar eclipse is shown in Figure 4.24. Earth’s dark shadow is about 1.4 million kilometers long, so at the Moon’s distance (an average of 384,000 kilometers), it could cover about four full moons. Unlike a solar eclipse, which is visible only in certain local areas on Earth, a lunar eclipse is visible to everyone who can see the Moon. Because a lunar eclipse can be seen (weather permitting) from the entire night side of Earth, lunar eclipses are observed far more frequently from a given place on Earth than are solar eclipses.\n\n2 Eclipse glasses are available in many planetarium and observatory gift stores, and also from the two main U.S. manufacturers:"
+      },
+      {
+        "id": "astronomy2e-ch04:p135:par800:4",
+        "rank": 8,
+        "score": 0.87083,
+        "source_id": "astronomy2e-ch04",
+        "page": 135,
+        "chapter": "4",
+        "hit": false,
+        "text": "The Moon is actually 30 Earth-diameters away from us; Science and the Universe: A Brief Tour contains a diagram that shows the two objects to scale. And, since the Moon’s orbit is tilted relative to the path of the Sun in the sky, Earth’s shadow misses the Moon most months. That’s why we regularly get treated to a full moon.\n\nThe times when Earth’s shadow does fall on the Moon are called lunar eclipses and are discussed in Eclipses of the Sun and Moon."
+      },
+      {
+        "id": "astronomy2e-ch04:p142:par800:3",
+        "rank": 9,
+        "score": 0.86911,
+        "source_id": "astronomy2e-ch04",
+        "page": 142,
+        "chapter": "4",
+        "hit": false,
+        "text": "Eclipses of the Sun The apparent or angular sizes of both the Sun and Moon vary slightly from time to time as their distances from Earth vary. (Figure 4.21 shows the distance of the observer varying at points 1–4, but the idea is the same.) Much of the time, the Moon looks slightly smaller than the Sun and cannot cover it completely, even if the two are perfectly aligned. In this type of “annular eclipse,” there is a ring of light around the dark sphere of the Moon.\n\n124 4 • Earth, Moon, and Sky Access for free at openstax.org"
+      },
+      {
+        "id": "astronomy2e-ch04:p143:par800:0",
+        "rank": 10,
+        "score": 0.86815,
+        "source_id": "astronomy2e-ch04",
+        "page": 143,
+        "chapter": "4",
+        "hit": false,
+        "text": "However, if an eclipse of the Sun occurs when the Moon is somewhat nearer than its average distance, the Moon can completely hide the Sun, producing a total solar eclipse. Another way to say it is that a total eclipse of the Sun occurs at those times when the umbra of the Moon’s shadow reaches the surface of Earth."
+      }
+    ],
+    "context_ids": [
+      "astronomy2e-ch04:p142:par800:2",
+      "astronomy2e-ch04:p141:par800:3",
+      "astronomy2e-ch04:p145:par800:2"
+    ],
+    "context_chars": 2347,
+    "elapsed_ms": 26.9,
+    "hit1": false,
+    "hit3": false,
+    "mrr10": 0.14285714285714285,
+    "context_hit": false,
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch04",
+        "page": 144,
+        "evidence": "Because a lunar eclipse can be seen (weather permitting) from the entire night side of Earth, lunar eclipses are observed far more frequently from a given place on Earth than are solar eclipses."
+      }
+    ]
+  }
+]

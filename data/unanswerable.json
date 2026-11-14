@@ -1,0 +1,18 @@
+[
+  {"id": "u01", "split": "dev",
+   "question": "How many moons does Mars have, and what are they called?",
+   "answerable": false, "expected_behavior": "search_and_abstain", "filter": null,
+   "absence_reason": "Mars appears only in the context of its orbit (p88, p90, p101). Case-insensitive search over all 56 corpus pages (results/pages.jsonl of Day 6, p85-109 and p117-147): 'Phobos', 'Deimos', 'moons of Mars', 'moon of Mars', 'martian moon', 'two moons' all return 0 pages."},
+  {"id": "u02", "split": "dev",
+   "question": "How many leap seconds have been added to atomic time since they were introduced?",
+   "answerable": false, "expected_behavior": "search_and_abstain", "filter": null,
+   "absence_reason": "Corpus covers leap years in the Julian/Gregorian calendars (p132) but not leap seconds. Search: 'leap second', 'UTC', 'coordinated universal', 'atomic clock', '1972' return 0 pages; 'leap' only on p132 (leap years)."},
+  {"id": "u03", "split": "test",
+   "question": "On what date will the next total solar eclipse be visible from Vietnam?",
+   "answerable": false, "expected_behavior": "search_and_abstain", "filter": null,
+   "absence_reason": "Only past US eclipses are dated (2017, 2024 on p146). p143 says a list of future eclipses is in Appendix H, which is outside the indexed pages. Search: 'Vietnam', 'Asia', 'next total', 'next eclipse', '2025'-'2030' return 0 pages."},
+  {"id": "u04", "split": "test",
+   "question": "What is the mass of the International Space Station in kilograms?",
+   "answerable": false, "expected_behavior": "search_and_abstain", "filter": null,
+   "absence_reason": "The ISS is mentioned only in the Figure 3.1 caption (p85, orbits Earth every 90 minutes) and a simulation link (p100, 'space station'); its mass is never given. Search: 'mass of the International', 'tons'; 'kilogram' only on p120 (unrelated)."}
+]

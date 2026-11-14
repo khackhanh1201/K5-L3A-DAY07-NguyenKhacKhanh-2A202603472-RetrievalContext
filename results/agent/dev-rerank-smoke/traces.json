@@ -1,0 +1,273 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What shape did Kepler find for the orbit of Mars?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "rerank",
+        "query": "Kepler orbit shape Mars",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch03:p87:par800:3",
+            "label": "S1",
+            "rank": 1,
+            "score": 6.4805,
+            "page": 87
+          },
+          {
+            "id": "astronomy2e-ch03:p88:par800:5",
+            "label": "S2",
+            "rank": 2,
+            "score": 4.39258,
+            "page": 88
+          },
+          {
+            "id": "astronomy2e-ch03:p88:par800:3",
+            "label": "S3",
+            "rank": 3,
+            "score": 4.36555,
+            "page": 88
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch03:p87:par800:3",
+          "astronomy2e-ch03:p88:par800:5",
+          "astronomy2e-ch03:p88:par800:3"
+        ],
+        "retrieval_ms": 758.2,
+        "llm": {
+          "latency_ms": 1399,
+          "attempts": 1,
+          "prompt_tokens": 346,
+          "completion_tokens": 17,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "raw_answer": "Kepler found that the orbit of Mars has the shape of a somewhat flattened circle, or ellipse.",
+        "raw_citations": [
+          "S1",
+          "S3"
+        ],
+        "plain_text": false,
+        "valid": false,
+        "llm": {
+          "latency_ms": 1374,
+          "attempts": 1,
+          "prompt_tokens": 896,
+          "completion_tokens": 41,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch03:p87:par800:3",
+      "astronomy2e-ch03:p88:par800:5",
+      "astronomy2e-ch03:p88:par800:3"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch03, page 87)\nThe First Two Laws of Planetary Motion The path of an object through space is called its orbit. Kepler initially assumed that the orbits of planets were circles, but doing so did not allow him to find orbits that were consistent with Brahe’s observations. Working with the data for Mars, he eventually discovered that the orbit of that planet had the shape of a somewhat flattened circle, or ellipse. Next to the circle, the ellipse is the simplest kind of closed curve, belonging to a family of curves known as conic sections (Figure 3.3).\n\nFigure 3.3 Conic Sections. The circle, ellipse, parabola, and hyperbola are all formed by the intersection of a plane with a cone. This is why such curves are called conic sections.\n\n[S2] (source: astronomy2e-ch03, page 88)\nKepler’s second law deals with the speed with which each planet moves along its ellipse, also known as its orbital speed. Working with Brahe’s observations of Mars, Kepler discovered that the planet speeds up as it comes closer to the Sun and slows down as it pulls away from the Sun. He expressed the precise form of this relationship by imagining that the Sun and Mars are connected by a straight, elastic line. When Mars is closer to the Sun (positions 1 and 2 in Figure 3.5), the elastic line is not stretched as much, and the planet moves rapidly. Farther from the Sun, as in positions 3 and 4, the line is stretched a lot, and the planet does not move 70 3 • Orbits and Gravity Access for free at openstax.org\n\n[S3] (source: astronomy2e-ch03, page 88)\nNext, we can make ellipses of various elongations (or extended lengths) by varying the spacing of the tacks (as long as they are not farther apart than the length of the string). The greater the eccentricity, the more elongated is the ellipse, up to a maximum eccentricity of , when the ellipse becomes “flat,” the other extreme from a circle.\n\nThe size and shape of an ellipse are completely specified by its semimajor axis and its eccentricity. Using Brahe’s data, Kepler found that Mars has an elliptical orbit, with the Sun at one focus (the other focus is empty). The eccentricity of the orbit of Mars is only about ; its orbit, drawn to scale, would be practically indistinguishable from a circle, but the difference turned out to be critical for understanding planetary motions.",
+    "label_map": {
+      "S1": "astronomy2e-ch03:p87:par800:3",
+      "S2": "astronomy2e-ch03:p88:par800:5",
+      "S3": "astronomy2e-ch03:p88:par800:3"
+    },
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "elapsed_s": 3.53,
+    "prompt_tokens": 1242,
+    "completion_tokens": 58,
+    "cost_usd": 0.0,
+    "abstain_reason": "invalid_citations"
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "question": "How many moons does Mars have, and what are they called?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "rerank",
+        "query": "Mars moons names and number",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p135:par800:6",
+            "label": "S1",
+            "rank": 1,
+            "score": -1.92841,
+            "page": 135
+          },
+          {
+            "id": "astronomy2e-ch04:p135:par800:5",
+            "label": "S2",
+            "rank": 2,
+            "score": -3.22498,
+            "page": 135
+          },
+          {
+            "id": "astronomy2e-ch03:p101:par800:1",
+            "label": "S3",
+            "rank": 3,
+            "score": -6.45653,
+            "page": 101
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p135:par800:6",
+          "astronomy2e-ch04:p135:par800:5",
+          "astronomy2e-ch03:p101:par800:1"
+        ],
+        "retrieval_ms": 393.1,
+        "llm": {
+          "latency_ms": 1106,
+          "attempts": 1,
+          "prompt_tokens": 347,
+          "completion_tokens": 17,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "rerank",
+        "query": "Mars moons number and names",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p135:par800:6",
+            "label": "S1",
+            "rank": 1,
+            "score": -1.10446,
+            "page": 135
+          },
+          {
+            "id": "astronomy2e-ch04:p135:par800:5",
+            "label": "S2",
+            "rank": 2,
+            "score": -2.69687,
+            "page": 135
+          },
+          {
+            "id": "astronomy2e-ch03:p101:par800:1",
+            "label": "S3",
+            "rank": 3,
+            "score": -5.93196,
+            "page": 101
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p135:par800:6",
+          "astronomy2e-ch04:p135:par800:5",
+          "astronomy2e-ch03:p101:par800:1"
+        ],
+        "retrieval_ms": 476.0,
+        "llm": {
+          "latency_ms": 1056,
+          "attempts": 1,
+          "prompt_tokens": 848,
+          "completion_tokens": 17,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "rerank",
+        "query": "Mars moons number",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "astronomy2e-ch04:p135:par800:6",
+            "label": "S1",
+            "rank": 1,
+            "score": -3.04456,
+            "page": 135
+          },
+          {
+            "id": "astronomy2e-ch03:p97:par800:4",
+            "label": "S4",
+            "rank": 2,
+            "score": -4.12877,
+            "page": 97
+          },
+          {
+            "id": "astronomy2e-ch03:p102:par800:1",
+            "label": "S5",
+            "rank": 3,
+            "score": -4.2366,
+            "page": 102
+          }
+        ],
+        "context_ids": [
+          "astronomy2e-ch04:p135:par800:6",
+          "astronomy2e-ch04:p135:par800:5",
+          "astronomy2e-ch03:p97:par800:4",
+          "astronomy2e-ch03:p101:par800:1",
+          "astronomy2e-ch03:p102:par800:1"
+        ],
+        "retrieval_ms": 472.5,
+        "llm": {
+          "latency_ms": 1180,
+          "attempts": 1,
+          "prompt_tokens": 855,
+          "completion_tokens": 46,
+          "cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved context does not contain information about the number of moons Mars has or their names.",
+        "llm": {
+          "latency_ms": 1180,
+          "attempts": 1,
+          "prompt_tokens": 1152,
+          "completion_tokens": 32,
+          "cost_usd": 0.0
+        }
+      }
+    ],
+    "final_context_ids": [
+      "astronomy2e-ch04:p135:par800:6",
+      "astronomy2e-ch04:p135:par800:5",
+      "astronomy2e-ch03:p97:par800:4",
+      "astronomy2e-ch03:p101:par800:1",
+      "astronomy2e-ch03:p102:par800:1"
+    ],
+    "final_context": "[S1] (source: astronomy2e-ch04, page 135)\nWednesday, Mercury’s day, for example, is mercoledi in Italian, mercredi in French, and miércoles in Spanish. Mars gives its name to Tuesday (martes in Spanish), Jupiter or Jove to Thursday (giovedi in Italian), and Venus to Friday (vendredi in French).\n\nThere is no reason that the week has to have seven days rather than five or eight. It is interesting to speculate that if we had lived in a planetary system where more planets were visible without a telescope, the Beatles could have been right and we might well have had “Eight Days a Week.” MAKING CONNECTIONS 4.5 • Phases and Motions of the Moon 117\n\n[S2] (source: astronomy2e-ch04, page 135)\nAstronomy and the Days of the Week The week seems independent of celestial motions, although its length may have been based on the time between quarter phases of the Moon. In Western culture, the seven days of the week are named after the seven “wanderers” that the ancients saw in the sky: the Sun, the Moon, and the five planets visible to the unaided eye (Mercury, Venus, Mars, Jupiter, and Saturn).\n\nIn English, we can easily recognize the names Sun-day (Sunday), Moon-day (Monday), and Saturn-day (Saturday), but the other days are named after the Norse equivalents of the Roman gods that gave their names to the planets. In languages more directly related to Latin, the correspondences are clearer.\n\n[S4] (source: astronomy2e-ch03, page 97)\nIt is this force of gravity on the surface of Earth that gives us our sense of weight. Unlike your mass, which would remain the same on any planet or moon, your weight depends on the local force of gravity. So you would weigh less on Mars and the Moon than on Earth, even though there is no change in your mass. (Which means you would still have to go easy on the desserts in the college cafeteria when you got back!) The Moon is 60 Earth radii away from the center of Earth. If gravity (and the acceleration it causes) gets weaker with distance squared, the acceleration the Moon experiences should be a lot less than for the apple. The acceleration should be (or 3600 times less—about ). This is precisely the observed acceleration of the Moon in its orbit.\n\n[S3] (source: astronomy2e-ch03, page 101)\nTwo points in any orbit in our solar system have been given special names. The place where the planet is closest to the Sun (helios in Greek) and moves the fastest is called the perihelion of its orbit, and the place where it is farthest away and moves the most slowly is the aphelion. For the Moon or a satellite orbiting Earth (gee in Greek), the corresponding terms are perigee and apogee. (In this book, we use the word moon for a natural object that goes around a planet and the word satellite to mean a human-made object that revolves around a planet.) Orbits of the Planets Today, Newton’s work enables us to calculate and predict the orbits of the planets with marvelous precision.\n\n[S5] (source: astronomy2e-ch03, page 102)\nOrbital Data for the Planets Planet Semimajor Axis (AU) Period (y) Eccentricity Mercury 0.39 0.24 0.21 Venus 0.72 0.6 0.01 Earth 1 1.00 0.02 Mars 1.52 1.88 0.09 (Ceres) 2.77 4.6 0.08 Jupiter 5.20 11.86 0.05 Table 3.2 84 3 • Orbits and Gravity Access for free at openstax.org",
+    "label_map": {
+      "S1": "astronomy2e-ch04:p135:par800:6",
+      "S2": "astronomy2e-ch04:p135:par800:5",
+      "S3": "astronomy2e-ch03:p101:par800:1",
+      "S4": "astronomy2e-ch03:p97:par800:4",
+      "S5": "astronomy2e-ch03:p102:par800:1"
+    },
+    "n_searches": 3,
+    "n_llm_calls": 4,
+    "elapsed_s": 5.86,
+    "prompt_tokens": 3202,
+    "completion_tokens": 112,
+    "cost_usd": 0.0,
+    "abstain_reason": "The retrieved context does not contain information about the number of moons Mars has or their names."
+  }
+]

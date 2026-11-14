@@ -1,0 +1,206 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What shape did Kepler find for the orbit of Mars?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "How is the eccentricity of an ellipse defined?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Using its 1.88-year orbital period, how far from the Sun is Mars on average in astronomical units?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Why does a planet travel faster when it gets nearer to the Sun?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Astronauts a few hundred kilometers above Earth still feel strong gravity, so why do they appear weightless?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Why did Kepler not realize that the masses of the Sun and planet belong in his third law?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "How fast does a probe have to go to leave Earth permanently?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Who first identified Neptune in the sky, and when?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "What speed must an object reach to circle Earth in orbit instead of falling to the ground?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "If the summer solstice is the longest day, why is it not the hottest day of the year?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "How much longer is a solar day than a sidereal day?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "In the Gregorian calendar, which century years count as leap years?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Why can people on Earth only ever see one face of the Moon?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "In the chapter on Earth, Moon, and Sky: as tidal friction slows Earth's spin, why must some other motion speed up?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "In the chapter on Earth, Moon, and Sky: is the distance between the Moon and Earth changing, and how fast?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "In the chapter on Earth, Moon, and Sky: by roughly what percentage does Earth's distance from the Sun change during the year?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "In the chapter on Orbits and Gravity: what are the closest and farthest points in the orbit of an object circling Earth called?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Why do comets spend most of their time far away from the Sun?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Why don't we see an eclipse of the Sun and of the Moon every month?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "From a given place on Earth, why are lunar eclipses observed much more often than solar eclipses?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "question": "How many moons does Mars have, and what are they called?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Mars appears only in the context of its orbit (p88, p90, p101). Case-insensitive search over all 56 corpus pages (results/pages.jsonl of Day 6, p85-109 and p117-147): 'Phobos', 'Deimos', 'moons of Mars', 'moon of Mars', 'martian moon', 'two moons' all return 0 pages.",
+    "filter": null
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "question": "How many leap seconds have been added to atomic time since they were introduced?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus covers leap years in the Julian/Gregorian calendars (p132) but not leap seconds. Search: 'leap second', 'UTC', 'coordinated universal', 'atomic clock', '1972' return 0 pages; 'leap' only on p132 (leap years).",
+    "filter": null
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "question": "On what date will the next total solar eclipse be visible from Vietnam?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Only past US eclipses are dated (2017, 2024 on p146). p143 says a list of future eclipses is in Appendix H, which is outside the indexed pages. Search: 'Vietnam', 'Asia', 'next total', 'next eclipse', '2025'-'2030' return 0 pages.",
+    "filter": null
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "question": "What is the mass of the International Space Station in kilograms?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The ISS is mentioned only in the Figure 3.1 caption (p85, orbits Earth every 90 minutes) and a simulation link (p100, 'space station'); its mass is never given. Search: 'mass of the International', 'tons'; 'kilogram' only on p120 (unrelated).",
+    "filter": null
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "query_id": "q16",
+    "citation_support": [
+      true
+    ],
+    "reviewer_note": "Nhãn nháp do Claude chấm bằng cách đọc câu trả lời và chunk được trích; người làm bài cần đọc lại và xác nhận/sửa.",
+    "answer_grade": 2,
+    "reason": "Đúng 'about 3%'; chunk p121:2 có nguyên văn 'its distance from the Sun varies by only about 3%'. Câu hỏi chỉ hỏi phần trăm nên đủ.",
+    "context_grade": 2,
+    "context_reason": "Context cuối chứa chunk evidence gold kèm nguồn và trang."
+  },
+  {
+    "query_id": "q17",
+    "citation_support": [
+      true
+    ],
+    "reviewer_note": "Nhãn nháp do Claude chấm bằng cách đọc câu trả lời và chunk được trích; người làm bài cần đọc lại và xác nhận/sửa.",
+    "answer_grade": 2,
+    "reason": "Perigee/apogee đúng; chunk p101:1 nêu 'For the Moon or a satellite orbiting Earth ... perigee and apogee'.",
+    "context_grade": 2,
+    "context_reason": "Context cuối chứa chunk evidence gold kèm nguồn và trang."
+  },
+  {
+    "query_id": "q18",
+    "citation_support": [
+      true
+    ],
+    "reviewer_note": "Nhãn nháp do Claude chấm bằng cách đọc câu trả lời và chunk được trích; người làm bài cần đọc lại và xác nhận/sửa.",
+    "answer_grade": 2,
+    "reason": "Đủ cả độ lệch tâm >= 0.8 và định luật 2 Kepler; khớp p103:0.",
+    "context_grade": 2,
+    "context_reason": "Context cuối chứa chunk evidence gold kèm nguồn và trang."
+  },
+  {
+    "query_id": "q19",
+    "citation_support": [
+      true
+    ],
+    "reviewer_note": "Nhãn nháp do Claude chấm bằng cách đọc câu trả lời và chunk được trích; người làm bài cần đọc lại và xác nhận/sửa.",
+    "answer_grade": 2,
+    "reason": "Đủ: quỹ đạo nghiêng ~5°, đa số tháng Mặt Trăng ở trên/dưới hoàng đạo, eclipse season khi hai đường cắt nhau; khớp p142:2.",
+    "context_grade": 2,
+    "context_reason": "Context cuối chứa chunk evidence gold kèm nguồn và trang."
+  },
+  {
+    "query_id": "q20",
+    "citation_support": [
+      true,
+      true
+    ],
+    "reviewer_note": "Nhãn nháp do Claude chấm bằng cách đọc câu trả lời và chunk được trích; người làm bài cần đọc lại và xác nhận/sửa.",
+    "answer_grade": 2,
+    "reason": "Đúng và đủ; p144:2 hỗ trợ ý nửa đêm/vùng cục bộ, p145:2 hỗ trợ 'visible only in a narrow path'. Không thêm khẳng định ngoài nguồn.",
+    "context_grade": 2,
+    "context_reason": "Context cuối chứa chunk evidence gold kèm nguồn và trang."
+  },
+  {
+    "query_id": "u03",
+    "citation_support": [],
+    "reviewer_note": "Nhãn nháp do Claude chấm bằng cách đọc câu trả lời và chunk được trích; người làm bài cần đọc lại và xác nhận/sửa.",
+    "abstention_correct": true,
+    "reason": "Đã search 1 lần rồi từ chối, không đưa khẳng định nào; corpus không có thông tin (xem absence_reason)."
+  },
+  {
+    "query_id": "u04",
+    "citation_support": [],
+    "reviewer_note": "Nhãn nháp do Claude chấm bằng cách đọc câu trả lời và chunk được trích; người làm bài cần đọc lại và xác nhận/sửa.",
+    "abstention_correct": true,
+    "reason": "Đã search 1 lần rồi từ chối, không đưa khẳng định nào; corpus không có thông tin (xem absence_reason)."
+  }
+]

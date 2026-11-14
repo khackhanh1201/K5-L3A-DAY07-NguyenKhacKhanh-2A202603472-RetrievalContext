@@ -1,0 +1,355 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "What shape did Kepler find for the orbit of Mars?",
+    "expected_answer": "An ellipse (a somewhat flattened circle), not a perfect circle.",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch03",
+        "page": 87,
+        "evidence": "the orbit of that planet had the shape of a somewhat flattened circle, or ellipse"
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "How is the eccentricity of an ellipse defined?",
+    "expected_answer": "The ratio of the distance between the two foci to the length of the major axis.",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch03",
+        "page": 88,
+        "evidence": "The ratio of the distance between the foci to the length of the major axis is called the eccentricity of the ellipse."
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Using its 1.88-year orbital period, how far from the Sun is Mars on average in astronomical units?",
+    "expected_answer": "About 1.52 AU (roughly 50% farther from the Sun than Earth).",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch03",
+        "page": 90,
+        "evidence": "Mars’ semimajor axis in astronomical units must be 1.52 AU"
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Why does a planet travel faster when it gets nearer to the Sun?",
+    "expected_answer": "Because angular momentum is conserved: as the distance to the Sun decreases, the planet speeds up (Kepler's second law).",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch03",
+        "page": 95,
+        "evidence": "As a planet approaches the Sun on its elliptical orbit and the distance to the spin center decreases, the planet speeds up to conserve the angular momentum."
+      },
+      {
+        "source_id": "astronomy2e-ch03",
+        "page": 88,
+        "evidence": "the planet speeds up as it comes closer to the Sun and slows down as it pulls away from the Sun"
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "condition_exception",
+    "question": "Astronauts a few hundred kilometers above Earth still feel strong gravity, so why do they appear weightless?",
+    "expected_answer": "Because they are in free fall, like passengers in an elevator whose cable has broken; they fall around Earth together with their spacecraft.",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch03",
+        "page": 98,
+        "evidence": "for the same reason that passengers in an elevator whose cable has broken feel weightless: they are falling"
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "condition_exception",
+    "question": "Why did Kepler not realize that the masses of the Sun and planet belong in his third law?",
+    "expected_answer": "Because the planets' masses are tiny compared to the Sun's, so the sum of the masses is very close to 1 solar mass and the extra factor is not noticeable.",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch03",
+        "page": 99,
+        "evidence": "the tiny mass of the planets compared to the Sun is the reason that Kepler did not realize that both masses had to be included in the calculation"
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "How fast does a probe have to go to leave Earth permanently?",
+    "expected_answer": "The escape speed, about 11 km/s (about 25,000 miles per hour).",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch03",
+        "page": 105,
+        "evidence": "which is about 11 kilometers per second (about 25,000 miles per hour)"
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "direct",
+    "question": "Who first identified Neptune in the sky, and when?",
+    "expected_answer": "Johann Galle at the Berlin Observatory, on the night of September 23, 1846, after receiving Le Verrier's letter.",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch03",
+        "page": 107,
+        "evidence": "Galle received Le Verrier’s letter on September 23, 1846, and, possessing new charts of the Aquarius region, found and identified the planet that very night."
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "direct",
+    "question": "What speed must an object reach to circle Earth in orbit instead of falling to the ground?",
+    "expected_answer": "The circular satellite velocity, about 8 km/s (about 17,500 miles per hour).",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch03",
+        "page": 104,
+        "evidence": "called the circular satellite velocity—is about 8 kilometers per second"
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "condition_exception",
+    "question": "If the summer solstice is the longest day, why is it not the hottest day of the year?",
+    "expected_answer": "Because Earth's air and water are large reservoirs that do not heat up instantaneously; the hottest months come later (July and August in the north).",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch04",
+        "page": 127,
+        "evidence": "This is because our weather involves the air and water covering Earth’s surface, and these large reservoirs do not heat up instantaneously."
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "direct",
+    "question": "How much longer is a solar day than a sidereal day?",
+    "expected_answer": "About 4 minutes, because Earth also moves along its orbit during one rotation.",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch04",
+        "page": 127,
+        "evidence": "So the solar day is about 4 minutes longer than the sidereal day."
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "condition_exception",
+    "question": "In the Gregorian calendar, which century years count as leap years?",
+    "expected_answer": "Only century years divisible by 400 (e.g., 1600 and 2000, but not 1700, 1800, 1900).",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch04",
+        "page": 132,
+        "evidence": "The rule was that only century years divisible by 400 would be leap years."
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Why can people on Earth only ever see one face of the Moon?",
+    "expected_answer": "Because the Moon rotates on its axis in exactly the same time it takes to revolve around Earth (synchronous rotation).",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch04",
+        "page": 136,
+        "evidence": "The Moon rotates on its axis in exactly the same time that it takes to revolve about Earth."
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In the chapter on Earth, Moon, and Sky: as tidal friction slows Earth's spin, why must some other motion speed up?",
+    "expected_answer": "Because the angular momentum of the Earth-Moon system cannot change, so another spin motion must take up the extra angular momentum.",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch04",
+        "page": 140,
+        "evidence": "in a system such as the Earth-Moon system cannot change. Thus, some other spin motion must speed up to take the extra angular momentum."
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In the chapter on Earth, Moon, and Sky: is the distance between the Moon and Earth changing, and how fast?",
+    "expected_answer": "Yes, the Moon is slowly moving away from Earth by about 3.8 cm per year (measured with mirrors left by Apollo 11).",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch04",
+        "page": 141,
+        "evidence": "These show that the Moon is moving away by 3.8 centimeters per year"
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In the chapter on Earth, Moon, and Sky: by roughly what percentage does Earth's distance from the Sun change during the year?",
+    "expected_answer": "Only about 3%, which is not enough to cause the seasons.",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch04",
+        "page": 121,
+        "evidence": "its distance from the Sun varies by only about 3%"
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In the chapter on Orbits and Gravity: what are the closest and farthest points in the orbit of an object circling Earth called?",
+    "expected_answer": "Perigee (closest) and apogee (farthest).",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch03",
+        "page": 101,
+        "evidence": "For the Moon or a satellite orbiting Earth (gee in Greek), the corresponding terms are perigee and apogee."
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Why do comets spend most of their time far away from the Sun?",
+    "expected_answer": "Their orbits are large and highly eccentric (0.8 or more), so by Kepler's second law they move very slowly far from the Sun and quickly near perihelion.",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch03",
+        "page": 103,
+        "evidence": "According to Kepler’s second law, therefore, they spend most of their time far from the Sun, moving very slowly."
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "condition_exception",
+    "question": "Why don't we see an eclipse of the Sun and of the Moon every month?",
+    "expected_answer": "Because the Moon's orbit is tilted about 5° to the plane of Earth's orbit, so most months the Moon passes above or below the ecliptic; eclipses happen only when the paths cross (eclipse seasons).",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch04",
+        "page": 142,
+        "evidence": "the Moon’s orbit is tilted relative to the plane of Earth’s orbit about the Sun by about 5°"
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "From a given place on Earth, why are lunar eclipses observed much more often than solar eclipses?",
+    "expected_answer": "A lunar eclipse is visible from the entire night side of Earth, whereas a total solar eclipse is visible only along a narrow path.",
+    "gold": [
+      {
+        "source_id": "astronomy2e-ch04",
+        "page": 144,
+        "evidence": "Because a lunar eclipse can be seen (weather permitting) from the entire night side of Earth, lunar eclipses are observed far more frequently from a given place on Earth than are solar eclipses."
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  }
+]

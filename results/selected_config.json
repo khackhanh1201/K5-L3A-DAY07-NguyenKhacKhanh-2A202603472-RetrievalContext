@@ -1,0 +1,9 @@
+{
+  "chosen_on": "dev, 2026-11-14, before any test run",
+  "selected": {"method": "rerank", "top_k": 3, "budget_chars": 6000, "neighbors": 1, "max_searches": 3,
+               "model": "openai/gpt-4o-mini", "temperature": 0, "max_tokens": 1024,
+               "command": "python -m src.agent --split test --method rerank --top-k 3 --budget 6000 --neighbors 1 --tag selected"},
+  "baseline": {"method": "dense", "top_k": 3, "budget_chars": 4000, "neighbors": 0, "max_searches": 3,
+               "command": "python -m src.agent --split test --method dense --top-k 3 --budget 4000 --tag baseline"},
+  "dev_evidence": {"selected_context": "14/15", "baseline_context": "11/15", "abstention": "2/2 both"}
+}

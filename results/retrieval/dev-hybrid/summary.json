@@ -1,0 +1,28 @@
+{
+  "method": "hybrid",
+  "split": "dev",
+  "top_k": 3,
+  "budget_chars": 4000,
+  "use_filter": true,
+  "neighbors": 0,
+  "n_answerable": 15,
+  "hit1": "7/15",
+  "hit1_rate": 0.467,
+  "hit3": "9/15",
+  "hit3_rate": 0.6,
+  "mrr10": 0.58,
+  "context_evidence": "9/15",
+  "context_evidence_rate": 0.6,
+  "avg_context_chars": 2130,
+  "median_ms": 20.5,
+  "misses_at3": [
+    "q01",
+    "q04",
+    "q06",
+    "q07",
+    "q14",
+    "q15"
+  ],
+  "service_cost_usd": 0,
+  "load_seconds": 20.0
+}

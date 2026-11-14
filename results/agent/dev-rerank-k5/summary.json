@@ -1,0 +1,30 @@
+{
+  "split": "dev",
+  "method": "rerank",
+  "model": "openai/gpt-4o-mini",
+  "max_searches": 3,
+  "top_k": 5,
+  "budget_chars": 6000,
+  "neighbors": 0,
+  "n": 17,
+  "status": {
+    "answered": 13,
+    "abstain": 4
+  },
+  "tool_use": "17/17",
+  "searches_distribution": {
+    "1": 15,
+    "3": 2
+  },
+  "median_elapsed_s": 3.11,
+  "total_prompt_tokens": 28963,
+  "total_completion_tokens": 1584,
+  "total_cost_usd": 0.0,
+  "errors": [],
+  "abstained": [
+    "q06",
+    "q15",
+    "u01",
+    "u02"
+  ]
+}

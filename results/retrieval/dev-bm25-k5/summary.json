@@ -1,0 +1,25 @@
+{
+  "method": "bm25",
+  "split": "dev",
+  "top_k": 5,
+  "budget_chars": 6000,
+  "use_filter": true,
+  "neighbors": 0,
+  "n_answerable": 15,
+  "hit1": "11/15",
+  "hit1_rate": 0.733,
+  "hit3": "12/15",
+  "hit3_rate": 0.8,
+  "mrr10": 0.767,
+  "context_evidence": "12/15",
+  "context_evidence_rate": 0.8,
+  "avg_context_chars": 3505,
+  "median_ms": 1.0,
+  "misses_at3": [
+    "q04",
+    "q07",
+    "q15"
+  ],
+  "service_cost_usd": 0,
+  "load_seconds": 0.0
+}
